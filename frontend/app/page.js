@@ -3,17 +3,17 @@ import { useState } from 'react';
 import styles from './page.module.css';
 
 const SIGNAL_COLORS = { bullish: '#0af0a0', bearish: '#ef4444', neutral: '#6b8899', warning: '#f59e0b' };
-const TYPE_LABELS = { whale: '🐋 Кит', trader: '⚡ Трейдер', holder: '💎 Холдер', bot: '🤖 Бот', new_wallet: '🌱 Новый' };
+const TYPE_LABELS = { whale: '🐋 Whale', trader: '⚡ Trader', holder: '💎 Holder', bot: '🤖 Bot', new_wallet: '🌱 New Wallet' };
 
 export default function Home() {
   const [wallet, setWallet] = useState('');
   const [report, setReport] = useState(null);
-  const [status, setStatus] = useState('idle'); // idle | loading | triggering | done | error
+  const [status, setStatus] = useState('idle');
   const [msg, setMsg] = useState('');
 
   async function fetchReport(addr) {
     setStatus('loading');
-    setMsg('Загружаем отчёт...');
+    setMsg('Loading report...');
     const res = await fetch(`/api/report?wallet=${addr}`);
     const data = await res.json();
     if (res.ok) {
@@ -24,13 +24,13 @@ export default function Home() {
       await triggerAgent(addr);
     } else {
       setStatus('error');
-      setMsg(data.error || 'Ошибка');
+      setMsg(data.error || 'Error loading report');
     }
   }
 
   async function triggerAgent(addr) {
     setStatus('triggering');
-    setMsg('Кошелёк не найден — запускаем агент...');
+    setMsg('Wallet not found — starting agent...');
     const res = await fetch('/api/trigger', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -39,10 +39,10 @@ export default function Home() {
     const data = await res.json();
     if (res.ok) {
       setStatus('idle');
-      setMsg('✓ Агент запущен. Отчёт появится через ~1–2 минуты. Попробуйте снова.');
+      setMsg('✓ Agent started. Report will be ready in ~1–2 minutes. Try again shortly.');
     } else {
       setStatus('error');
-      setMsg(data.error || 'Не удалось запустить агент');
+      setMsg(data.error || 'Failed to start agent');
     }
   }
 
@@ -51,7 +51,7 @@ export default function Home() {
     const addr = wallet.trim().toLowerCase();
     if (!/^0x[0-9a-f]{40}$/i.test(addr)) {
       setStatus('error');
-      setMsg('Некорректный адрес. Должен начинаться с 0x и содержать 40 символов.');
+      setMsg('Invalid address. Must start with 0x and contain 40 characters.');
       return;
     }
     setReport(null);
@@ -70,7 +70,7 @@ export default function Home() {
           <span className={styles.logoMark}>◈</span>
           <span>BASE AGENT</span>
         </div>
-        <p className={styles.sub}>Onchain аналитик для Base L2 · powered by AI</p>
+        <p className={styles.sub}>Onchain intelligence for Base L2 · powered by AI</p>
       </div>
 
       <form className={styles.form} onSubmit={handleSubmit}>
@@ -78,14 +78,14 @@ export default function Home() {
           <span className={styles.inputPrefix}>0x</span>
           <input
             className={styles.input}
-            placeholder="адрес кошелька..."
+            placeholder="wallet address..."
             value={wallet}
             onChange={e => setWallet(e.target.value)}
             spellCheck={false}
           />
         </div>
         <button className={styles.btn} disabled={status === 'loading' || status === 'triggering'}>
-          {status === 'loading' || status === 'triggering' ? '...' : 'АНАЛИЗ'}
+          {status === 'loading' || status === 'triggering' ? '...' : 'ANALYZE'}
         </button>
       </form>
 
@@ -101,7 +101,7 @@ export default function Home() {
             <div>
               <div className={styles.reportAddr}>{report.wallet}</div>
               <div className={styles.reportTime}>
-                {report.generatedAt ? new Date(report.generatedAt).toLocaleString('ru') : ''}
+                {report.generatedAt ? new Date(report.generatedAt).toLocaleString('en') : ''}
               </div>
             </div>
             <div className={styles.scoreBlock}>
@@ -120,7 +120,7 @@ export default function Home() {
 
           {report.signals?.length > 0 && (
             <div className={styles.section}>
-              <div className={styles.sectionTitle}>Сигналы</div>
+              <div className={styles.sectionTitle}>Signals</div>
               <div className={styles.signals}>
                 {report.signals.map((s, i) => (
                   <div key={i} className={styles.signal} style={{ borderColor: SIGNAL_COLORS[s.type] || '#333' }}>
@@ -134,7 +134,7 @@ export default function Home() {
 
           {report.topTokens?.length > 0 && (
             <div className={styles.section}>
-              <div className={styles.sectionTitle}>Топ токены</div>
+              <div className={styles.sectionTitle}>Top Tokens</div>
               <div className={styles.tokens}>
                 {report.topTokens.map((t, i) => (
                   <span key={i} className={styles.token}>{t}</span>
@@ -145,7 +145,7 @@ export default function Home() {
 
           {report.alerts?.length > 0 && (
             <div className={styles.alerts}>
-              <div className={styles.sectionTitle}>⚠ Предупреждения</div>
+              <div className={styles.sectionTitle}>⚠ Alerts</div>
               {report.alerts.map((a, i) => <div key={i} className={styles.alertItem}>{a}</div>)}
             </div>
           )}
@@ -153,7 +153,7 @@ export default function Home() {
       )}
 
       <footer className={styles.footer}>
-        Base L2 · Etherscan API · Grok / GLM · GitHub Actions · Vercel
+        Base L2 · Blockscout API · Groq AI · GitHub Actions · Vercel
       </footer>
     </main>
   );
