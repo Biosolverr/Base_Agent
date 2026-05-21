@@ -1,0 +1,18 @@
+{
+  "wallet": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "score": 20,
+  "type": "holder",
+  "signals": [
+    {
+      "type": "neutral",
+      "text": "This wallet has a low activity score and no significant transactions."
+    }
+  ],
+  "topTokens": [
+    "USDC",
+    "ՍƧƊС"
+  ],
+  "summary": "This wallet has a low ETH balance and has only sent 48 transactions, mostly to the same contract. The wallet has a low activity score and no significant transactions.",
+  "alerts": []
+}
