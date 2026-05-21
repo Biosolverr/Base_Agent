@@ -1,0 +1,26 @@
+{
+  "wallet": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+  "generatedAt": "2026-05-21T21:00:00.000Z",
+  "score": 0,
+  "type": "bot",
+  "signals": [
+    {
+      "type": "neutral",
+      "text": "This wallet has been inactive with no significant transactions."
+    }
+  ],
+  "topTokens": [
+    "URANIUM",
+    "UṢDC",
+    "USDC",
+    "NFA",
+    "USDOR",
+    "DEGEN",
+    "BAGELS",
+    "OUROBORROS",
+    "WORC",
+    "IDR"
+  ],
+  "summary": "This wallet has been inactive with no significant transactions. It has a total of 50 transactions, all of which are transfers with 0 ETH. The wallet holds 10 different tokens.",
+  "alerts": []
+}

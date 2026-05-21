@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-05-21T21:14:25.509Z",
+  "updatedAt": "2026-05-21T21:37:26.728Z",
   "wallets": [
     {
-      "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-      "generatedAt": "2026-05-21T21:12:19.000Z",
+      "address": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+      "generatedAt": "2026-05-21T21:00:00.000Z",
       "score": 0,
-      "type": "holder"
+      "type": "bot"
     }
   ]
 }
