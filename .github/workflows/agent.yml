@@ -1,71 +1,45 @@
-import fetch from 'node-fetch';
+name: Base Wallet Agent
 
-const KEY = process.env.GROQ_API_KEY;
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      wallet:
+        description: 'Wallet address to analyze'
+        required: false
+        default: ''
 
-export async function analyzeWallet({ address, txs, tokenTxs, balance }) {
-  if (!KEY) throw new Error('No GROQ_API_KEY');
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-  const summary = buildSummary({ address, txs, tokenTxs, balance });
+    steps:
+      - uses: actions/checkout@v4
 
-  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${KEY}`,
-    },
-    body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
-      messages: [{ role: 'user', content: `You are a blockchain analyst for Base L2.
-Analyze this wallet and return ONLY valid JSON, no markdown:
-{
-  "wallet": "<address>",
-  "generatedAt": "<ISO timestamp>",
-  "score": <0-100>,
-  "type": "<whale|trader|holder|bot|new_wallet>",
-  "signals": [{ "type": "<bullish|bearish|neutral|warning>", "text": "<one sentence in Russian>" }],
-  "topTokens": ["<symbol>"],
-  "summary": "<2-3 sentences in Russian>",
-  "alerts": []
-}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-Wallet data:
-${summary}` }],
-      temperature: 0.3,
-      max_tokens: 800,
-    }),
-  });
+      - name: Install deps
+        run: npm install
+        working-directory: agent
 
-  if (!res.ok) {
-    const err = await res.text();
-    throw new Error(`AI API error ${res.status}: ${err}`);
-  }
+      - name: Run agent
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
+          WALLETS: ${{ secrets.WALLETS }}
+          MANUAL_WALLET: ${{ inputs.wallet }}
+        run: node index.js
+        working-directory: agent
 
-  const data = await res.json();
-  const raw = data.choices?.[0]?.message?.content || '{}';
-
-  try {
-    return JSON.parse(raw.replace(/```json|```/g, '').trim());
-  } catch {
-    return { wallet: address, error: 'parse_failed', raw };
-  }
-}
-
-function buildSummary({ address, txs, tokenTxs, balance }) {
-  const sent = txs.filter(t => t.from?.toLowerCase() === address.toLowerCase()).length;
-  const received = txs.filter(t => t.to?.toLowerCase() === address.toLowerCase()).length;
-  const failed = txs.filter(t => t.isError).length;
-  const methods = [...new Set(txs.map(t => t.method).filter(Boolean))].slice(0, 8);
-  const tokens = [...new Set(tokenTxs.map(t => t.token))].slice(0, 10);
-  const ethVolume = txs.reduce((s, t) => s + Number(t.value || 0), 0).toFixed(4);
-
-  return `
-Address: ${address}
-ETH Balance: ${balance} ETH
-Total txs: ${txs.length} (sent: ${sent}, received: ${received}, failed: ${failed})
-ETH volume: ${ethVolume} ETH
-Methods: ${methods.join(', ') || 'none'}
-Tokens (${tokenTxs.length} txs): ${tokens.join(', ') || 'none'}
-Recent txs:
-${txs.slice(0, 5).map(t => `  ${t.time} | ${t.method} | ${t.value} ETH`).join('\n')}
-`.trim();
-}
+      - name: Commit report
+        run: |
+          git config user.name "Base Agent Bot"
+          git config user.email "bot@base-agent"
+          git add reports/
+          git diff --staged --quiet || git commit -m "report: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push origin HEAD:main --force
