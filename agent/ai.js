@@ -14,7 +14,7 @@ export async function analyzeWallet({ address, txs, tokenTxs, balance }) {
       Authorization: `Bearer ${KEY}`,
     },
     body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
+      model: 'llama-3.1-8b-instant',
       messages: [{ role: 'user', content: `You are a blockchain analyst for Base L2.
 Analyze this wallet and return ONLY valid JSON, no markdown:
 {
