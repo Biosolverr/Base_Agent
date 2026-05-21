@@ -5,7 +5,7 @@ const PROVIDER = process.env.AI_PROVIDER || 'grok';
 const ENDPOINTS = {
   grok: {
     url: 'https://api.x.ai/v1/chat/completions',
-    model: 'grok-beta',
+    model: 'grok-3-fast',
     key: process.env.GROK_API_KEY,
   },
   glm: {
