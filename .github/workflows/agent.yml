@@ -2,8 +2,8 @@ name: Base Wallet Agent
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # каждые 6 часов
-  workflow_dispatch:          # ручной запуск
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
     inputs:
       wallet:
         description: 'Wallet address to analyze'
@@ -31,9 +31,9 @@ jobs:
         env:
           GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
           GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
-          AI_PROVIDER: ${{ secrets.AI_PROVIDER }}       # 'grok' or 'glm'
+          AI_PROVIDER: ${{ secrets.AI_PROVIDER }}
           ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
-          WALLETS: ${{ secrets.WALLETS }}               # JSON array of addresses
+          WALLETS: ${{ secrets.WALLETS }}
           MANUAL_WALLET: ${{ inputs.wallet }}
         run: node index.js
         working-directory: agent
