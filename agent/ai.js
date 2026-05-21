@@ -15,17 +15,17 @@ export async function analyzeWallet({ address, txs, tokenTxs, balance }) {
     },
     body: JSON.stringify({
       model: 'llama-3.1-8b-instant',
-      messages: [{ role: 'user', content: `You are a blockchain analyst for Base L2.
-Analyze this wallet and return ONLY valid JSON, no markdown:
+      messages: [{ role: 'user', content: `You are a blockchain analyst for Base L2 (Coinbase).
+Analyze this wallet's onchain activity and return ONLY valid JSON, no markdown, no explanation:
 {
   "wallet": "<address>",
   "generatedAt": "<ISO timestamp>",
-  "score": <0-100>,
+  "score": <0-100 activity score>,
   "type": "<whale|trader|holder|bot|new_wallet>",
-  "signals": [{ "type": "<bullish|bearish|neutral|warning>", "text": "<one sentence in Russian>" }],
+  "signals": [{ "type": "<bullish|bearish|neutral|warning>", "text": "<one sentence in English>" }],
   "topTokens": ["<symbol>"],
-  "summary": "<2-3 sentences in Russian>",
-  "alerts": []
+  "summary": "<2-3 sentences in English describing wallet activity>",
+  "alerts": ["<string if suspicious activity, otherwise empty array>"]
 }
 
 Wallet data:
@@ -63,7 +63,7 @@ Address: ${address}
 ETH Balance: ${balance} ETH
 Total txs: ${txs.length} (sent: ${sent}, received: ${received}, failed: ${failed})
 ETH volume: ${ethVolume} ETH
-Methods: ${methods.join(', ') || 'none'}
+Contract methods: ${methods.join(', ') || 'none'}
 Tokens (${tokenTxs.length} txs): ${tokens.join(', ') || 'none'}
 Recent txs:
 ${txs.slice(0, 5).map(t => `  ${t.time} | ${t.method} | ${t.value} ETH`).join('\n')}
