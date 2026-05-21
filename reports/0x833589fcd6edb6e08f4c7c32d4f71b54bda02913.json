@@ -1,0 +1,25 @@
+{
+  "wallet": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+  "generatedAt": "2026-05-21T21:12:19.000Z",
+  "score": 0,
+  "type": "holder",
+  "signals": [
+    {
+      "type": "neutral",
+      "text": "Нет никаких сигналов для этого кошелька."
+    }
+  ],
+  "topTokens": [
+    "OGOR",
+    "URANIUM",
+    "USER",
+    "ARB",
+    "GLOBALX",
+    "Ace",
+    "USDOR",
+    "ESSE",
+    "USDC"
+  ],
+  "summary": "Этот кошелек имеет 50 транзакций, 98 ETH баланс и активируется методом transfer. В кошельке есть 9 токенов.",
+  "alerts": []
+}
