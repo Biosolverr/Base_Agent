@@ -1,19 +1,23 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-22T14:15:00.000Z",
+  "generatedAt": "2026-05-22T14:21:03.000Z",
   "score": 20,
   "type": "holder",
-  "signals": [
-    {
-      "type": "neutral",
-      "text": "The wallet has a low activity score and has been receiving multiple small transactions."
-    }
-  ],
+  "signals": [],
   "topTokens": [
     "GD",
     "URANIUM",
-    "SKR"
+    "SKR",
+    "openhuman",
+    "Grail",
+    "Ace",
+    "GIFTBANK",
+    "Mexico Fan Token",
+    "SPCX Presale",
+    "SPCX"
   ],
-  "summary": "This wallet has a low activity score and has been receiving multiple small transactions. It has a balance of 285635.2638 ETH and has sent 0 transactions. The wallet has interacted with 6 different tokens.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving tokens. The wallet has a significant balance of ETH and has been transferring small amounts of ETH recently.",
+  "alerts": [
+    "Suspicious frequent transfers of small ETH amounts"
+  ]
 }
