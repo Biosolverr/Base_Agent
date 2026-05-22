@@ -1,18 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-21T00:00:00.000Z",
+  "generatedAt": "2026-05-22T14:05:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Адресс имеет небольшой баланс и редкие транзакции."
+      "text": "The wallet has been inactive recently, with a series of small transfers."
     }
   ],
   "topTokens": [
+    "GD",
     "URANIUM",
-    "Seeker $SKR"
+    "SKR"
   ],
-  "summary": "Адресс имеет небольшой баланс и редкие транзакции. В кошельке имеется 30 транзакций с разными токенами. Баланс ETH составляет 283811.1196 ETH.",
+  "summary": "This wallet has a moderate activity score, with a large ETH balance and a history of token transactions. Recent activity consists of small transfers.",
   "alerts": []
 }
