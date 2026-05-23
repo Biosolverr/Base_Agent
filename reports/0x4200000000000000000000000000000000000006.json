@@ -6,21 +6,16 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been active with frequent transfers, but no significant token activity."
+      "text": "Recent activity suggests a low-activity holder."
     }
   ],
   "topTokens": [
+    "Ace",
+    "ABC",
     "NFA",
     "GD",
-    "URANIUM",
-    "SKR",
-    "openhuman",
-    "Grail",
-    "Ace",
-    "GIFTBANK",
-    "Mexico Fan Token",
-    "SPCX Presale"
+    "URANIUM"
   ],
-  "summary": "This wallet has been active with frequent transfers, but no significant token activity. The wallet holds a variety of tokens, including NFA, GD, and URANIUM. The recent transactions are all transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score and has received 50 transactions, primarily involving token transfers.",
   "alerts": []
 }
