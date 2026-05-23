@@ -6,14 +6,21 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a significant period, indicating a holder type behavior."
+      "text": "This wallet has been active with frequent transfers, but no significant token activity."
     }
   ],
   "topTokens": [
+    "NFA",
     "GD",
     "URANIUM",
-    "Seeker $SKR"
+    "SKR",
+    "openhuman",
+    "Grail",
+    "Ace",
+    "GIFTBANK",
+    "Mexico Fan Token",
+    "SPCX Presale"
   ],
-  "summary": "This wallet has a low activity score, indicating a holder type behavior with a focus on GD, URANIUM, and Seeker $SKR tokens. The wallet has been inactive for a significant period, with recent transactions being small transfers.",
+  "summary": "This wallet has been active with frequent transfers, but no significant token activity. The wallet holds a variety of tokens, including NFA, GD, and URANIUM. The recent transactions are all transfers of 0 ETH.",
   "alerts": []
 }
