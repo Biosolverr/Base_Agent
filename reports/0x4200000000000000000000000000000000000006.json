@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-23T14:00:00.000Z",
+  "generatedAt": "2026-05-23T14:52:47.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-activity holder."
+      "text": "Recent activity indicates frequent transfers, possibly for liquidity or exchange purposes."
     }
   ],
   "topTokens": [
@@ -14,8 +14,15 @@
     "ABC",
     "NFA",
     "GD",
-    "URANIUM"
+    "URANIUM",
+    "Seeker $SKR",
+    "openhuman",
+    "Grail",
+    "GIFTBANK",
+    "Mexico Fan Token"
   ],
-  "summary": "This wallet has a low activity score and has received 50 transactions, primarily involving token transfers.",
-  "alerts": []
+  "summary": "This wallet has a moderate activity score, with 50 total transactions and a focus on token transfers. Recent activity suggests frequent transfers, possibly for liquidity or exchange purposes.",
+  "alerts": [
+    "Suspicious frequent transfers"
+  ]
 }
