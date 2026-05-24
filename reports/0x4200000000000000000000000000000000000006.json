@@ -1,21 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-24T14:00:00.000Z",
-  "score": 20,
+  "generatedAt": "2024-12-31T00:00:00.000Z",
+  "score": 0,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for an extended period."
+      "text": "This wallet has not shown significant activity in the past."
     }
   ],
   "topTokens": [
     "Yalo",
+    "HERRETICS",
+    "GIFTBANK",
     "Ace",
-    "ABC"
+    "ABC",
+    "NFA",
+    "GD",
+    "URANIUM",
+    "Seeker $SKR",
+    "openhuman"
   ],
-  "summary": "This wallet has a low activity score and has been receiving transfers. It holds a variety of tokens, including Yalo, Ace, and ABC. The wallet has been inactive for an extended period.",
-  "alerts": [
-    "Recent transactions may indicate a dormant wallet or a potential security risk."
-  ]
+  "summary": "This wallet has a low activity score and has not sent any transactions. It has received 50 transactions, mostly involving token transfers.",
+  "alerts": []
 }
