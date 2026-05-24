@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-23T14:52:47.000Z",
+  "generatedAt": "2026-05-24T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity indicates frequent transfers, possibly for liquidity or exchange purposes."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
@@ -21,8 +21,6 @@
     "GIFTBANK",
     "Mexico Fan Token"
   ],
-  "summary": "This wallet has a moderate activity score, with 50 total transactions and a focus on token transfers. Recent activity suggests frequent transfers, possibly for liquidity or exchange purposes.",
-  "alerts": [
-    "Suspicious frequent transfers"
-  ]
+  "summary": "This wallet has been holding a large amount of ETH and various tokens for an extended period, with recent activity being minimal.",
+  "alerts": []
 }
