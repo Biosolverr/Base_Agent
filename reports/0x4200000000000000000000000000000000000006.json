@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-25T14:10:11.000Z",
+  "generatedAt": "2026-05-25T14:45:15.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has shown minimal activity in the past 24 hours."
+      "text": "No significant activity detected in the past 24 hours."
     }
   ],
   "topTokens": [
@@ -21,6 +21,6 @@
     "Seeker $SKR",
     "openhuman"
   ],
-  "summary": "This wallet has a low activity score and has primarily received tokens. The recent transactions are transfers of 0 ETH.",
+  "summary": "This wallet has been inactive for an extended period, with no significant transactions in the past 24 hours. The wallet holds a large amount of ETH and various tokens. Recent transactions are small and frequent.",
   "alerts": []
 }
