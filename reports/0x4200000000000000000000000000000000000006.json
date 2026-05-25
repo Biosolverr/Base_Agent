@@ -1,26 +1,21 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-25T14:30:27.000Z",
+  "generatedAt": "2026-05-25T14:13:29.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a stable, low-activity wallet."
+      "text": "Recent activity suggests a low-activity wallet with no significant transactions."
     }
   ],
   "topTokens": [
-    "Yalo",
-    "HERRETICS",
     "GIFTBANK",
-    "Ace",
-    "ABC",
-    "NFA",
-    "GD",
-    "URANIUM",
-    "Seeker $SKR",
-    "openhuman"
+    "Yalo",
+    "HERRETICS"
   ],
-  "summary": "This wallet has a moderate ETH balance and has been involved in 50 transactions, mostly receiving funds. Recent activity includes small transfers.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been involved in 30 token transactions, primarily with GIFTBANK, Yalo, and HERRETICS. The wallet has a significant ETH balance but has not sent any transactions recently. The recent transactions were all 0 ETH transfers.",
+  "alerts": [
+    "Suspicious frequent 0 ETH transfers"
+  ]
 }
