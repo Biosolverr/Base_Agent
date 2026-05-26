@@ -1,26 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-26T14:32:53.000Z",
-  "score": 0,
-  "type": "bot",
+  "generatedAt": "2026-05-26T14:40:00.000Z",
+  "score": 20,
+  "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH."
+      "text": "This wallet has been inactive recently, with a series of small transfers."
     }
   ],
   "topTokens": [
-    "ISOR",
-    "GIFTBANK",
-    "Yalo",
-    "HERRETICS",
-    "Ace",
-    "ABC",
-    "NFA",
-    "GD",
-    "URANIUM",
-    "Seeker $SKR"
+    "CTR",
+    "CTRPreClaim"
   ],
-  "summary": "This wallet has a low activity score, with 50 total transactions, all of which are transfers of 0 ETH. It holds 10 different tokens. The recent transactions are indicative of a bot or automated system.",
+  "summary": "This wallet has a low activity score, with 50 total transactions and a high ETH balance. The recent transactions were small transfers, indicating potential inactivity. The wallet holds a variety of tokens.",
   "alerts": []
 }
