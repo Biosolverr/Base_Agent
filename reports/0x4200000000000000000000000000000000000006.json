@@ -1,18 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-26T14:40:00.000Z",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of small transfers."
+      "text": "No significant activity detected"
     }
   ],
   "topTokens": [
     "CTR",
-    "CTRPreClaim"
+    "evoluter"
   ],
-  "summary": "This wallet has a low activity score, with 50 total transactions and a high ETH balance. The recent transactions were small transfers, indicating potential inactivity. The wallet holds a variety of tokens.",
+  "summary": "This wallet has been relatively inactive, with a total of 50 transactions and a balance of 284035.7001 ETH. The wallet has interacted with various tokens, including $CTRPreClaim and Yalo. Recent transactions have been small, with no significant activity.",
   "alerts": []
 }
