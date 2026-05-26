@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-26T14:00:00.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2026-05-26T14:32:53.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of zero-value transactions."
+      "text": "Recent transactions are transfers of 0 ETH."
     }
   ],
   "topTokens": [
@@ -21,6 +21,6 @@
     "URANIUM",
     "Seeker $SKR"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with a series of zero-value transactions.",
+  "summary": "This wallet has a low activity score, with 50 total transactions, all of which are transfers of 0 ETH. It holds 10 different tokens. The recent transactions are indicative of a bot or automated system.",
   "alerts": []
 }
