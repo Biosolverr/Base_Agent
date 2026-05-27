@@ -1,19 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-27T14:52:37.000Z",
+  "generatedAt": "2026-05-27T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions involve frequent transfers of small amounts."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
     "Koi",
-    "WETH",
-    "ABC"
+    "WETH"
   ],
-  "summary": "This wallet has a low activity score, indicating it may be a holder or a dormant account. The recent transactions involve frequent transfers of small amounts.",
+  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions.",
   "alerts": []
 }
