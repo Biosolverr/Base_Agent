@@ -1,26 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-27T14:58:31.000Z",
+  "generatedAt": "2026-05-27T14:52:37.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of small transactions."
+      "text": "Recent transactions involve frequent transfers of small amounts."
     }
   ],
   "topTokens": [
-    "ABC",
-    "$CTRPreClaim",
-    "$CTR",
-    "CTR",
-    "evoluter",
-    "ISOR",
-    "GIFTBANK",
-    "Yalo",
-    "HERRETICS",
-    "Ace"
+    "Koi",
+    "WETH",
+    "ABC"
   ],
-  "summary": "This wallet has a low activity score, indicating it has been inactive recently. It has a large ETH balance and has received 50 transactions, but has only sent 0 transactions. The wallet has interacted with 10 different tokens.",
+  "summary": "This wallet has a low activity score, indicating it may be a holder or a dormant account. The recent transactions involve frequent transfers of small amounts.",
   "alerts": []
 }
