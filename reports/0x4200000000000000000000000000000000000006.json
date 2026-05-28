@@ -1,19 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-28T14:00:00.000Z",
+  "generatedAt": "2026-05-28T14:42:09.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of small transfers."
+      "text": "This wallet has been active recently, but the transactions were small and non-descript."
     }
   ],
   "topTokens": [
+    "OILPIPIN",
     "Koi",
-    "WETH",
-    "ABC"
+    "WETH"
   ],
-  "summary": "This wallet has a small ETH balance and has been involved in 30 token transactions, with recent activity consisting of small transfers.",
+  "summary": "This wallet has been active recently, with 5 small transactions in the past 5 minutes. The wallet holds a variety of tokens, including OILPIPIN, Koi, and WETH. The wallet's balance is 297 ETH.",
   "alerts": []
 }
