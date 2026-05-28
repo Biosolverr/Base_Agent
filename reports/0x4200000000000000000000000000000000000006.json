@@ -1,18 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-28T14:00:00.000Z",
-  "score": 10,
+  "generatedAt": "2026-05-28T14:03:19.000Z",
+  "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has low activity and no significant transactions."
+      "text": "This wallet has been inactive with recent transactions of 0 ETH."
     }
   ],
   "topTokens": [
+    "CDOR",
+    "OILPIPIN",
     "Koi",
-    "WETH"
+    "WETH",
+    "ABC",
+    "$CTRPreClaim",
+    "$CTR",
+    "CTR",
+    "evoluter",
+    "ISOR"
   ],
-  "summary": "This wallet has a low activity score and holds a mix of tokens, including Koi and WETH. It has a total of 50 transactions, with no outgoing transactions. The recent transactions are all transfers of 0 ETH.",
+  "summary": "This wallet has a balance of 288880.7629 ETH and has been active with 50 transactions, mostly receiving tokens.",
   "alerts": []
 }
