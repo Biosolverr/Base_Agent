@@ -1,19 +1,23 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-29T14:01:11.000Z",
+  "generatedAt": "2026-05-29T14:31:57.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a while, with recent transactions being transfers of 0 ETH."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
-    "CDOR",
     "OILPIPIN",
-    "Koi"
+    "CDOR",
+    "Koi",
+    "WETH",
+    "ABC"
   ],
-  "summary": "This wallet has a low activity score and has been transferring 0 ETH in recent transactions. It holds a variety of tokens, including CDOR, OILPIPIN, and Koi.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been inactive recently, with a focus on holding various tokens.",
+  "alerts": [
+    "Suspicious frequent transfers of 0 ETH"
+  ]
 }
