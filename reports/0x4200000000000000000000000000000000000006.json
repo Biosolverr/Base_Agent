@@ -1,26 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-30T13:00:00.000Z",
+  "generatedAt": "2026-05-30T14:15:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive with recent transactions indicating a potential holder or long-term investor."
+      "text": "This wallet has been inactive recently."
     }
   ],
   "topTokens": [
-    "TES",
-    "AFQ",
-    "OILPIPIN",
-    "CDOR",
-    "Koi",
-    "WETH",
-    "ABC",
-    "$CTRPreClaim",
-    "$CTR",
-    "CTR"
+    "LFI",
+    "TES"
   ],
-  "summary": "This wallet has a low activity score and has been inactive with recent transactions indicating a potential holder or long-term investor. The wallet has a large ETH balance and has interacted with multiple tokens. The recent transactions are all transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score and has been holding a small amount of tokens. It has been inactive recently with no significant transactions.",
   "alerts": []
 }
