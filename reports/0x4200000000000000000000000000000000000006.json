@@ -1,27 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-31T14:32:41.000Z",
+  "generatedAt": "2026-05-31T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity indicates a low level of engagement with the wallet."
+      "text": "This wallet has been inactive recently, with multiple consecutive zero-value transactions."
     }
   ],
   "topTokens": [
-    "WETH",
+    "KOI",
+    "zkSwap.vip",
+    "nokycswap.vip",
     "LFI",
     "TES",
     "DOGE2",
     "SpaceX",
     "AFQ",
     "OILPIPIN",
-    "CDOR",
-    "Koi"
+    "CDOR"
   ],
-  "summary": "This wallet has a low activity score, indicating a low level of engagement with the wallet. The wallet has a balance of 286422.6441 ETH and has received 50 transactions. The wallet has been active recently, with multiple transfers of 0 ETH.",
-  "alerts": [
-    "Recent activity may indicate a dormant wallet."
-  ]
+  "summary": "This wallet has been inactive recently, with multiple consecutive zero-value transactions. It has a history of receiving 30 different tokens, but has not sent any transactions. The wallet's balance is 288,077.4925 ETH.",
+  "alerts": []
 }
