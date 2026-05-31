@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-31T14:00:00.000Z",
+  "generatedAt": "2026-05-31T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with multiple consecutive zero-value transactions."
+      "text": "The wallet has had 50 transactions, but only 0 ETH has been moved."
     }
   ],
   "topTokens": [
@@ -21,6 +21,6 @@
     "OILPIPIN",
     "CDOR"
   ],
-  "summary": "This wallet has been inactive recently, with multiple consecutive zero-value transactions. It has a history of receiving 30 different tokens, but has not sent any transactions. The wallet's balance is 288,077.4925 ETH.",
+  "summary": "This wallet has been active with 50 transactions, but the majority of the activity is related to transfers of 0 ETH. The wallet holds a variety of tokens, including KOI and DOGE2.",
   "alerts": []
 }
