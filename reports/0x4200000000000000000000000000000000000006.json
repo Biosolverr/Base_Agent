@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-31T00:00:00.000Z",
+  "generatedAt": "2026-05-31T14:32:41.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-activity wallet with no significant transactions."
+      "text": "Recent activity indicates a low level of engagement with the wallet."
     }
   ],
   "topTokens": [
@@ -20,6 +20,8 @@
     "CDOR",
     "Koi"
   ],
-  "summary": "This wallet has a low activity score and has only received 50 transactions, primarily related to token transfers. The recent transactions are all transfers of 0 ETH, indicating no significant activity.",
-  "alerts": []
+  "summary": "This wallet has a low activity score, indicating a low level of engagement with the wallet. The wallet has a balance of 286422.6441 ETH and has received 50 transactions. The wallet has been active recently, with multiple transfers of 0 ETH.",
+  "alerts": [
+    "Recent activity may indicate a dormant wallet."
+  ]
 }
