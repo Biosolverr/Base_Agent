@@ -1,26 +1,25 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-01T14:05:33.000Z",
+  "generatedAt": "2024-03-16T12:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a short period, with recent transactions being transfers of 0 ETH."
+      "text": "This wallet has shown low activity in recent transactions."
     }
   ],
   "topTokens": [
-    "nokyc.vip",
+    "UFO",
     "KOI",
-    "zkSwap.vip",
-    "nokycswap.vip",
     "LFI",
     "TES",
     "DOGE2",
     "SpaceX",
-    "AFQ",
-    "OILPIPIN"
+    "AFQ"
   ],
-  "summary": "This wallet has a moderate activity score and has been involved in 30 token transactions. Recent transactions have been transfers of 0 ETH.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has received 50 transactions, mostly involving token transfers. The wallet has a small ETH balance and has been involved in 30 token transactions. Recent transactions show frequent transfers of 0 ETH.",
+  "alerts": [
+    "Suspicious frequent transfers of 0 ETH in recent transactions"
+  ]
 }
