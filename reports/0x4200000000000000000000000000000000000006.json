@@ -1,15 +1,16 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-05-31T00:00:00.000Z",
+  "generatedAt": "2026-06-01T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "The wallet has had 50 transactions, but only 0 ETH has been moved."
+      "text": "This wallet has been inactive recently, with a series of zero-value transactions."
     }
   ],
   "topTokens": [
+    "nokyc.vip",
     "KOI",
     "zkSwap.vip",
     "nokycswap.vip",
@@ -18,9 +19,8 @@
     "DOGE2",
     "SpaceX",
     "AFQ",
-    "OILPIPIN",
-    "CDOR"
+    "OILPIPIN"
   ],
-  "summary": "This wallet has been active with 50 transactions, but the majority of the activity is related to transfers of 0 ETH. The wallet holds a variety of tokens, including KOI and DOGE2.",
+  "summary": "This wallet has a moderate activity score and has been involved in 30 token transactions. The recent activity consists of a series of zero-value transactions.",
   "alerts": []
 }
