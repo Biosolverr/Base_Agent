@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-02T14:30:00.000Z",
+  "generatedAt": "2026-06-02T14:58:53.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of small transfers."
+      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
     }
   ],
   "topTokens": [
@@ -16,6 +16,6 @@
     "LFI",
     "TES"
   ],
-  "summary": "This wallet has a moderate activity score and has been involved in 30 token transactions. Recently, it has been transferring small amounts of ETH.",
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, with 30 of those being token-related. The recent transactions are transfers of 0 ETH, indicating no significant activity. The wallet holds a variety of tokens, including UFO, nokyc.vip, and KOI.",
   "alerts": []
 }
