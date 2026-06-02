@@ -1,17 +1,11 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-02T15:53:17.000Z",
-  "score": 20,
+  "generatedAt": "2026-06-02T14:33:03.000Z",
+  "score": 10,
   "type": "holder",
-  "signals": [
-    {
-      "type": "neutral",
-      "text": "Recent activity suggests a holder, but no significant transactions."
-    }
-  ],
+  "signals": [],
   "topTokens": [
     "UFO",
-    "nokyc.vip",
     "KOI",
     "LFI",
     "TES",
@@ -19,6 +13,8 @@
     "SpaceX",
     "AFQ"
   ],
-  "summary": "This wallet has a moderate activity score and is likely a holder. Recent transactions are small and frequent.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. The recent transactions are all zero-ETH transfers.",
+  "alerts": [
+    "Suspicious frequent zero-ETH transfers"
+  ]
 }
