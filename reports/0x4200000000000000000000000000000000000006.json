@@ -1,23 +1,21 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-03T14:37:37.000Z",
+  "generatedAt": "2026-06-03T14:31:05.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity consists of multiple zero-value transfers."
+      "text": "The wallet has been active with 50 transactions, but the recent activity is minimal."
     }
   ],
   "topTokens": [
     "ECASH",
     "GACOR",
-    "UFO",
-    "LFI",
-    "TES"
+    "UFO"
   ],
-  "summary": "This wallet has a low activity score, indicating minimal recent activity. It holds a variety of tokens and has a history of 50 transactions, with 30 of them being token-related. Recent transfers were zero-value.",
+  "summary": "This wallet has been active with 50 transactions, mostly receiving tokens. The recent activity is minimal with 4 transactions in the last hour, all of which are transfers of 0 or 1 ETH.",
   "alerts": [
-    "Suspicious frequent zero-value transfers."
+    "Suspicious frequent transfers of 0 ETH"
   ]
 }
