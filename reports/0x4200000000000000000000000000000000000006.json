@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-03T14:31:05.000Z",
+  "generatedAt": "2026-06-03T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "The wallet has been active with 50 transactions, but the recent activity is minimal."
+      "text": "This wallet has a low activity score and has only received transactions."
     }
   ],
   "topTokens": [
@@ -14,8 +14,6 @@
     "GACOR",
     "UFO"
   ],
-  "summary": "This wallet has been active with 50 transactions, mostly receiving tokens. The recent activity is minimal with 4 transactions in the last hour, all of which are transfers of 0 or 1 ETH.",
-  "alerts": [
-    "Suspicious frequent transfers of 0 ETH"
-  ]
+  "summary": "This wallet has a low activity score and has only received transactions. It has a balance of 299422.0082 ETH and has interacted with various contracts. The recent transactions are all zero-ETH transfers.",
+  "alerts": []
 }
