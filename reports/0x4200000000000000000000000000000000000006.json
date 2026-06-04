@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-03T14:43:17.000Z",
+  "generatedAt": "2026-06-04T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with 5 consecutive zero-value transactions."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
@@ -14,6 +14,8 @@
     "GACOR",
     "UFO"
   ],
-  "summary": "This wallet has been holding a significant amount of ETH and has been involved in 30 token transactions. Recently, it has been sending 0 ETH in 5 consecutive transactions.",
-  "alerts": []
+  "summary": "This wallet has a balance of 301853.0570 ETH and has been active in the past with a total of 50 transactions, but has recently been inactive.",
+  "alerts": [
+    "Suspicious frequent transfers of 0 ETH"
+  ]
 }
