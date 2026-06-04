@@ -1,19 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-04T14:30:45.000Z",
+  "generatedAt": "2026-06-04T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a while, with recent activity consisting of small transfers."
+      "text": "Recent transactions are small and frequent."
     }
   ],
   "topTokens": [
-    "VOAR",
     "Luna",
+    "VOAR",
     "ZBase Pro"
   ],
-  "summary": "This wallet has a low activity score and has been holding a variety of tokens, with recent activity consisting of small transfers.",
+  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. Recent transactions are small and frequent.",
   "alerts": []
 }
