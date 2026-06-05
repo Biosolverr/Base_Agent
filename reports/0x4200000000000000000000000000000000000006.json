@@ -1,19 +1,25 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-04T14:00:00.000Z",
+  "generatedAt": "2026-06-05T14:07:29.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are small and frequent."
+      "text": "This wallet has a low activity score, indicating minimal recent onchain activity."
     }
   ],
   "topTokens": [
     "Luna",
     "VOAR",
-    "ZBase Pro"
+    "ZBase Pro",
+    "VIP",
+    "ECASH",
+    "GACOR",
+    "UFO",
+    "nokyc.vip",
+    "KOI"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. Recent transactions are small and frequent.",
+  "summary": "This wallet has been active with 50 transactions, primarily transfers and token interactions. The most recent transactions involve transferring 0 ETH. The wallet holds a significant amount of ETH.",
   "alerts": []
 }
