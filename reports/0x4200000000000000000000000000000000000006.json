@@ -1,21 +1,28 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-05T14:30:00.000Z",
-  "score": 20,
+  "generatedAt": "2026-06-05T14:28:31.000Z",
+  "score": 0,
   "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are small and frequent, possibly indicating a bot or spam activity."
+      "text": "Recent transactions are transfers of 0 ETH, indicating potential bot activity."
     }
   ],
   "topTokens": [
     "USDC",
     "South Africa Fan Token",
-    "Mexico Fan Token"
+    "Mexico Fan Token",
+    "Luna",
+    "VOAR",
+    "ZBase Pro",
+    "VIP",
+    "ECASH",
+    "GACOR",
+    "UFO"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving ETH and various tokens. Recent transactions are small and frequent, possibly indicating a bot or spam activity.",
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, primarily receiving tokens. Recent transactions are transfers of 0 ETH, indicating potential bot activity.",
   "alerts": [
-    "Suspicious frequent small transactions"
+    "Suspicious bot activity with recent 0 ETH transfers"
   ]
 }
