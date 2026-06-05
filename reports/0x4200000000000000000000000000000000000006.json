@@ -1,19 +1,21 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-05T14:26:31.000Z",
+  "generatedAt": "2026-06-05T14:30:00.000Z",
   "score": 20,
-  "type": "holder",
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-level holder with occasional transactions."
+      "text": "Recent transactions are small and frequent, possibly indicating a bot or spam activity."
     }
   ],
   "topTokens": [
-    "SFT",
-    "MFT",
-    "LUNA"
+    "USDC",
+    "South Africa Fan Token",
+    "Mexico Fan Token"
   ],
-  "summary": "This wallet has a moderate ETH balance and has received 50 transactions, mostly involving token transfers. Recent activity includes multiple small ETH transfers.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving ETH and various tokens. Recent transactions are small and frequent, possibly indicating a bot or spam activity.",
+  "alerts": [
+    "Suspicious frequent small transactions"
+  ]
 }
