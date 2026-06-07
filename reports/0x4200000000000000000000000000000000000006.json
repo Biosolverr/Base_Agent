@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-07T14:42:03.000Z",
+  "generatedAt": "2026-06-07T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
+      "text": "Recent transactions are small and frequent, indicating potential liquidity management."
     }
   ],
   "topTokens": [
@@ -14,13 +14,10 @@
     "DRONE",
     "VIP",
     "ABC",
-    "USDC",
-    "South Africa Fan Token",
-    "Mexico Fan Token",
-    "Luna",
-    "VOAR",
-    "ZBase Pro"
+    "USDC"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, with 30 of them related to token transfers. The recent transactions are transfers of 0 ETH, indicating no significant activity.",
-  "alerts": []
+  "summary": "This wallet has a moderate activity score and has been involved in 50 transactions, mostly receiving tokens. Recent transactions are small and frequent, indicating potential liquidity management.",
+  "alerts": [
+    "Multiple small transactions in a short period may indicate liquidity management or a bot."
+  ]
 }
