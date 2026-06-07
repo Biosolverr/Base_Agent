@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-06T14:02:47.000Z",
+  "generatedAt": "2026-06-07T14:15:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity indicates a low activity level"
+      "text": "This wallet has been inactive recently, with a series of small transfers."
     }
   ],
   "topTokens": [
@@ -16,6 +16,6 @@
     "ABC",
     "USDC"
   ],
-  "summary": "This wallet has a low activity level, with recent transactions indicating a transfer of 0 ETH. The wallet holds a variety of tokens, including HP, DRONE, and USDC.",
+  "summary": "This wallet has a low activity score and has been receiving small transfers. It holds a variety of tokens, including HP, DRONE, and USDC. The wallet has been inactive recently.",
   "alerts": []
 }
