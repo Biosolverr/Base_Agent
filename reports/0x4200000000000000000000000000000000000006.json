@@ -6,18 +6,21 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are small and frequent, indicating potential liquidity management."
+      "text": "This wallet has been inactive recently, with a series of zero-value transactions."
     }
   ],
   "topTokens": [
+    "ALCETON",
+    "RARDDEN",
+    "$ANTHROPIC",
+    "ANTHROPIC",
     "HP",
     "DRONE",
     "VIP",
     "ABC",
-    "USDC"
+    "USDC",
+    "South Africa Fan Token"
   ],
-  "summary": "This wallet has a moderate activity score and has been involved in 50 transactions, mostly receiving tokens. Recent transactions are small and frequent, indicating potential liquidity management.",
-  "alerts": [
-    "Multiple small transactions in a short period may indicate liquidity management or a bot."
-  ]
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving tokens. The recent transactions were zero-value transfers. The wallet holds a diverse portfolio of tokens.",
+  "alerts": []
 }
