@@ -1,26 +1,17 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-07T14:00:00.000Z",
+  "generatedAt": "2026-06-08T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of zero-value transactions."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
-    "ALCETON",
-    "RARDDEN",
-    "$ANTHROPIC",
-    "ANTHROPIC",
-    "HP",
-    "DRONE",
-    "VIP",
-    "ABC",
-    "USDC",
-    "South Africa Fan Token"
+    "USDC"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving tokens. The recent transactions were zero-value transfers. The wallet holds a diverse portfolio of tokens.",
+  "summary": "This wallet has a low activity score and has been holding a significant amount of ETH. It has been inactive recently, with no significant transactions. The wallet has a balance of 271226.1075 ETH.",
   "alerts": []
 }
