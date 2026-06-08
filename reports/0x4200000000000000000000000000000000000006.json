@@ -1,26 +1,20 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-08T14:00:00.000Z",
+  "generatedAt": "2026-06-08T15:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are small and frequent, indicating possible wallet maintenance."
+      "text": "This wallet has had recent low-value transactions, indicating possible wallet maintenance."
     }
   ],
   "topTokens": [
-    "ALCETON",
-    "RARDDEN",
-    "$ANTHROPIC",
-    "ANTHROPIC",
-    "HP",
-    "DRONE",
-    "VIP",
-    "ABC",
-    "USDC",
-    "South Africa Fan Token"
+    "ETH",
+    "USDC"
   ],
-  "summary": "This wallet holds a significant amount of ETH and has been involved in 50 transactions, mostly receiving tokens. Recent transactions are small and frequent, indicating possible wallet maintenance.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has recently had multiple low-value transactions, suggesting possible wallet maintenance. The wallet holds a significant amount of ETH and USDC.",
+  "alerts": [
+    "Suspicious low-value transactions"
+  ]
 }
