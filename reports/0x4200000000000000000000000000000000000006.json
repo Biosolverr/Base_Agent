@@ -6,21 +6,12 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive with recent transactions of 0 ETH."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
-    "Stars",
-    "ALCETON",
-    "RARDDEN",
-    "$ANTHROPIC",
-    "ANTHROPIC",
-    "HP",
-    "DRONE",
-    "VIP",
-    "ABC",
     "USDC"
   ],
-  "summary": "This wallet has a low activity score and has been receiving 0 ETH transactions recently. It holds a variety of tokens and has a total of 50 transactions.",
+  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions.",
   "alerts": []
 }
