@@ -1,6 +1,6 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-09T14:00:00.000Z",
+  "generatedAt": "2026-06-09T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
@@ -10,8 +10,9 @@
     }
   ],
   "topTokens": [
-    "USDC"
+    "EXY",
+    "Stars"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions.",
+  "summary": "This wallet has a low activity score and has been inactive recently, with only transfer transactions and no significant token activity.",
   "alerts": []
 }
