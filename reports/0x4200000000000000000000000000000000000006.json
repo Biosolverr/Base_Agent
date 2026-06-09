@@ -1,19 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-08T14:00:00.000Z",
+  "generatedAt": "2026-06-09T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of zero-ETH transfers."
+      "text": "This wallet has been inactive with recent transactions of 0 ETH."
     }
   ],
   "topTokens": [
+    "Stars",
+    "ALCETON",
+    "RARDDEN",
+    "$ANTHROPIC",
+    "ANTHROPIC",
+    "HP",
+    "DRONE",
+    "VIP",
+    "ABC",
     "USDC"
   ],
-  "summary": "This wallet has a low activity score and has been receiving 0 ETH in recent transactions, indicating inactivity.",
-  "alerts": [
-    "Suspicious zero-ETH transfers"
-  ]
+  "summary": "This wallet has a low activity score and has been receiving 0 ETH transactions recently. It holds a variety of tokens and has a total of 50 transactions.",
+  "alerts": []
 }
