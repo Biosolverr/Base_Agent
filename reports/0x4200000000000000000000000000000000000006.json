@@ -1,18 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-02-20T14:30:00.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2026-06-10T14:37:51.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a long period."
+      "text": "Recent transactions are small transfers, indicating possible bot activity."
     }
   ],
   "topTokens": [
     "SpaceX",
-    "ALCETON"
+    "ALCETON",
+    "EXY",
+    "Stars",
+    "RARDDEN",
+    "$ANTHROPIC",
+    "ANTHROPIC",
+    "HP",
+    "DRONE",
+    "VIP"
   ],
-  "summary": "This wallet has a low activity score and has been inactive for a long period. It has a balance of 289589.9515 ETH and has received 50 transactions. The recent transactions are all transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving tokens. Recent transactions are small transfers, indicating possible bot activity.",
   "alerts": []
 }
