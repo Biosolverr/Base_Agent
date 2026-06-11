@@ -1,19 +1,25 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-11T14:00:00.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2026-06-11T15:30:37.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for an extended period."
+      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
     }
   ],
   "topTokens": [
+    "MESSI",
+    "Mu",
+    "TRILLIONAIRE",
+    "SPCX",
+    "EṬH",
     "USDC",
     "MMG",
-    "ANOTHER"
+    "ANTHROPIC",
+    "SEA"
   ],
-  "summary": "This wallet has a large ETH balance and has been involved in 50 transactions, mostly receiving tokens. The recent transactions are transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score and has only transferred 0 ETH in recent transactions. It holds a variety of tokens, including MESSI, Mu, and TRILLIONAIRE.",
   "alerts": []
 }
