@@ -1,17 +1,21 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-12T14:00:00.000Z",
+  "generatedAt": "2026-06-12T14:30:21.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of small transfers."
+      "text": "Recent transactions are small and frequent, indicating possible liquidity management."
     }
   ],
   "topTokens": [
-    "ETH"
+    "ETH",
+    "REVOLVER",
+    "USTOF"
   ],
-  "summary": "This wallet has a large ETH balance and has been inactive recently, with a series of small transfers.",
-  "alerts": []
+  "summary": "This wallet has a low activity score, indicating it may be a holder rather than an active trader. It has a significant ETH balance and has received 50 transactions, but most recent transactions are small and frequent.",
+  "alerts": [
+    "Recent transactions are small and frequent, indicating possible liquidity management."
+  ]
 }
