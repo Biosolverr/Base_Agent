@@ -6,12 +6,14 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "The wallet has been inactive recently, with no significant transactions."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
-    "ETH"
+    "LIONS",
+    "EṬH",
+    "REVOLVER"
   ],
-  "summary": "This wallet has a small balance and has been inactive recently, with only transfer transactions.",
+  "summary": "This wallet has a low activity score and has been inactive recently. It has a balance of 286,948.49 ETH and has received 50 transactions. The wallet has been transferring small amounts of ETH.",
   "alerts": []
 }
