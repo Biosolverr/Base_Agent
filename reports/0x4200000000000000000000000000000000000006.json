@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-14T14:30:00.000Z",
+  "generatedAt": "2026-06-14T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with no significant transactions."
+      "text": "This wallet has been inactive with recent transactions being transfers of 0 ETH."
     }
   ],
   "topTokens": [
@@ -14,6 +14,6 @@
     "EṬH",
     "REVOLVER"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions. It holds a variety of tokens, including LIONS, EṬH, and REVOLVER.",
+  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. Recent transactions have been transfers of 0 ETH.",
   "alerts": []
 }
