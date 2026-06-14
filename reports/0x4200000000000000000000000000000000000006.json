@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-14T14:00:00.000Z",
+  "generatedAt": "2026-06-14T14:05:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a stable wallet with no significant changes in the past few hours."
+      "text": "This wallet has been inactive recently, with only transfer transactions."
     }
   ],
   "topTokens": [
@@ -21,6 +21,6 @@
     "DSNT",
     "IDRX"
   ],
-  "summary": "This wallet has been active with 50 transactions, mostly receiving tokens, and has a moderate balance of 288548.7283 ETH. Recent activity shows frequent transfers of 0 ETH, indicating a stable wallet.",
+  "summary": "This wallet has a moderate activity score and holds a variety of tokens. It has been inactive recently, with only transfer transactions.",
   "alerts": []
 }
