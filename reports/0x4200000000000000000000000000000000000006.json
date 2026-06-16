@@ -1,26 +1,15 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-16T14:34:55.000Z",
-  "score": 0,
+  "generatedAt": "2026-06-16T14:00:00.000Z",
+  "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive with recent transactions of 0 ETH, indicating a potential holding pattern."
+      "text": "This wallet has been inactive for a long time."
     }
   ],
-  "topTokens": [
-    "OILTRUCE",
-    "Robin",
-    "KIN",
-    "ALEO",
-    "LIONS",
-    "EṬH",
-    "REVOLVER",
-    "USTOF",
-    "FlyingTulip Pre-Order",
-    "ICEBERGY"
-  ],
-  "summary": "This wallet has an ETH balance of 278329.4552 ETH and has received 50 transactions, with 30 of them being token-related. The recent transactions involve transferring 0 ETH, indicating a potential holding pattern.",
+  "topTokens": [],
+  "summary": "This wallet has been inactive for a long time, with no significant transactions.",
   "alerts": []
 }
