@@ -1,19 +1,15 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-16T16:30:00.000Z",
+  "generatedAt": "2026-06-16T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-activity holder account."
+      "text": "This wallet has been inactive recently, with multiple consecutive zero-ETH transactions."
     }
   ],
-  "topTokens": [
-    "Fst",
-    "U.S. BGC",
-    "GD"
-  ],
-  "summary": "This wallet has a low activity score and has recently been involved in a series of small transactions. The wallet holds a diverse portfolio of tokens, including Fst, U.S. BGC, and GD. The recent transactions suggest a possible attempt to balance the portfolio.",
+  "topTokens": [],
+  "summary": "This wallet has a balance of 279326.2006 ETH and has received 50 transactions, but has not sent any. It has been active recently, but the transactions have been small and insignificant.",
   "alerts": []
 }
