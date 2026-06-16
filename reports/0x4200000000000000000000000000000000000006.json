@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-15T20:45:00.000Z",
+  "generatedAt": "2026-06-16T14:34:55.000Z",
   "score": 0,
-  "type": "bot",
+  "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has exhibited low activity, with no significant transactions in the past few hours."
+      "text": "This wallet has been inactive with recent transactions of 0 ETH, indicating a potential holding pattern."
     }
   ],
   "topTokens": [
@@ -21,6 +21,6 @@
     "FlyingTulip Pre-Order",
     "ICEBERGY"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. The recent transactions have been transfers of 0 ETH.",
+  "summary": "This wallet has an ETH balance of 278329.4552 ETH and has received 50 transactions, with 30 of them being token-related. The recent transactions involve transferring 0 ETH, indicating a potential holding pattern.",
   "alerts": []
 }
