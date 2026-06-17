@@ -1,15 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-16T00:00:00.000Z",
+  "generatedAt": "2026-06-17T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with multiple consecutive zero-ETH transactions."
+      "text": "This wallet has been inactive recently, with a series of zero-value transactions."
     }
   ],
-  "topTokens": [],
-  "summary": "This wallet has a balance of 279326.2006 ETH and has received 50 transactions, but has not sent any. It has been active recently, but the transactions have been small and insignificant.",
+  "topTokens": [
+    "VIOR",
+    "1B",
+    "Robin",
+    "Fst",
+    "U.S. BGC",
+    "GD",
+    "OILTRUCE",
+    "KIN",
+    "ALEO",
+    "LIONS"
+  ],
+  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. The wallet has been inactive recently, with a series of zero-value transactions.",
   "alerts": []
 }
