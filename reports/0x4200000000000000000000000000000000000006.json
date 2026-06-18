@@ -1,18 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-17T14:30:00.000Z",
+  "generatedAt": "2026-06-18T14:02:49.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been active recently, but the transactions are small and do not indicate any significant activity."
+      "text": "Recent activity indicates a series of small transfers."
     }
   ],
   "topTokens": [
-    "USDC",
-    "VIOR"
+    "MEMMEX",
+    "USDC"
   ],
-  "summary": "This wallet has been active recently with 30 transactions involving various tokens, but the transactions are small and do not indicate any significant activity.",
+  "summary": "This wallet has a low activity score and has recently transferred small amounts of ETH. It holds a variety of tokens, including MEMMEX and USDC. The wallet's recent transactions suggest a low-risk activity profile.",
   "alerts": []
 }
