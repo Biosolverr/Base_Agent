@@ -1,9 +1,11 @@
 {
-  "updatedAt": "2026-06-18T14:42:08.632Z",
+  "updatedAt": "2026-06-18T20:08:12.912Z",
   "wallets": [
     {
       "address": "0x4200000000000000000000000000000000000006",
-      "error": "Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON"
+      "generatedAt": "2026-06-18T14:07:17.000Z",
+      "score": 20,
+      "type": "holder"
     }
   ]
 }
