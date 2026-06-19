@@ -1,15 +1,21 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-19T14:09:00.000Z",
-  "score": 0,
+  "generatedAt": "2026-06-19T14:40:00.000Z",
+  "score": 5,
   "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH."
+      "text": "Recent transactions are small and frequent, possibly indicating a bot activity."
     }
   ],
-  "topTokens": [],
-  "summary": "This wallet has been active with 50 transactions, mostly transfers of 0 ETH. It holds a significant amount of ETH (290071.6646 ETH).",
-  "alerts": []
+  "topTokens": [
+    "TRUMPAW",
+    "MEMMEX",
+    "USDC"
+  ],
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving tokens. Recent transactions are small and frequent, possibly indicating a bot activity.",
+  "alerts": [
+    "Suspicious frequent transfers of small amounts"
+  ]
 }
