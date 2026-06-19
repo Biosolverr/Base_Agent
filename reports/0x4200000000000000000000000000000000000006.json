@@ -1,20 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-18T14:07:17.000Z",
+  "generatedAt": "2026-06-19T14:47:55.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has low activity and no significant transactions."
+      "text": "Recent activity indicates low transaction volume and no significant token movements."
     }
   ],
   "topTokens": [
     "USDC",
-    "gtusdcp"
+    "gtusdcp",
+    "MEMMEX"
   ],
-  "summary": "This wallet has been inactive with no significant transactions. It has a low ETH balance and has only received transactions.",
-  "alerts": [
-    "Suspicious frequent transfers of 0 ETH"
-  ]
+  "summary": "This wallet holds a significant amount of ETH and has been involved in 50 transactions, mostly receiving tokens. Recent activity shows a large ETH transfer, but no significant token movements.",
+  "alerts": []
 }
