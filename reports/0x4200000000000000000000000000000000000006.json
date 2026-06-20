@@ -1,19 +1,28 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-19T14:22:29.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2026-06-20T14:08:57.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a while, but recent activity suggests a possible return to normal."
+      "text": "Recent transactions are transfers of 0 ETH, indicating potential bot activity."
     }
   ],
   "topTokens": [
     "RDOF",
     "TRUMPAW",
-    "MEMMEX"
+    "MEMMEX",
+    "USDC",
+    "gtusdcp",
+    "VIOR",
+    "1B",
+    "Robin",
+    "Fst",
+    "U.S. BGC"
   ],
-  "summary": "This wallet has been holding a large amount of ETH for a while, with recent activity consisting of multiple small transfers.",
-  "alerts": []
+  "summary": "This wallet has 50 total transactions, with 50 received and 0 sent. The recent transactions are transfers of 0 ETH, indicating potential bot activity.",
+  "alerts": [
+    "Suspicious transfer activity with no ETH volume"
+  ]
 }
