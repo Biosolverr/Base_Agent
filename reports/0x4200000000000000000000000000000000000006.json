@@ -1,26 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-20T14:37:59.000Z",
-  "score": 0,
+  "generatedAt": "2026-06-20T14:00:00.000Z",
+  "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity indicates a low level of engagement with the wallet."
+      "text": "This wallet has been inactive recently, with a series of zero-ETH transfers."
     }
   ],
   "topTokens": [
     "RDOF",
     "TRUMPAW",
-    "MEMMEX",
-    "USDC",
-    "gtusdcp",
-    "VIOR",
-    "1B",
-    "Robin",
-    "Fst",
-    "U.S. BGC"
+    "MEMMEX"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, primarily receiving tokens.",
+  "summary": "This wallet has a moderate activity score and has been holding various tokens, including RDOF, TRUMPAW, and MEMMEX.",
   "alerts": []
 }
