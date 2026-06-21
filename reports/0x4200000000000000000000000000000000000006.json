@@ -6,7 +6,7 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of small transactions."
+      "text": "The wallet has been inactive with recent transactions, indicating a potential holder."
     }
   ],
   "topTokens": [
@@ -14,6 +14,6 @@
     "DIOR",
     "RDOF"
   ],
-  "summary": "This wallet has a balance of 281.452 ETH and has been involved in 50 transactions, primarily receiving tokens. The recent activity consists of a series of small transfers.",
+  "summary": "This wallet has a balance of 282.502 ETH and has received 50 transactions, primarily involving token transfers.",
   "alerts": []
 }
