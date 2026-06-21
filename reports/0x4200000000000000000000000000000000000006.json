@@ -1,19 +1,17 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
   "generatedAt": "2026-06-21T14:00:00.000Z",
-  "score": 20,
-  "type": "holder",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "The wallet has been inactive with recent transactions, indicating a potential holder."
+      "text": "Recent transactions are transfers of 0 ETH, indicating potential bot activity."
     }
   ],
-  "topTokens": [
-    "USAIF",
-    "DIOR",
-    "RDOF"
-  ],
-  "summary": "This wallet has a balance of 282.502 ETH and has received 50 transactions, primarily involving token transfers.",
-  "alerts": []
+  "topTokens": [],
+  "summary": "This wallet has a low activity score and has recently made multiple transfers of 0 ETH, suggesting potential bot activity.",
+  "alerts": [
+    "Suspicious bot activity detected"
+  ]
 }
