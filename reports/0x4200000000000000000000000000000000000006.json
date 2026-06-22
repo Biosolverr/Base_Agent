@@ -1,21 +1,28 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-22T14:30:00.000Z",
+  "generatedAt": "2026-06-22T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low level of engagement with the wallet."
+      "text": "This wallet has been active recently, but the transactions are minimal and do not indicate any significant activity."
     }
   ],
   "topTokens": [
+    "Mortal",
     "USAIF",
     "DIOR",
-    "RDOF"
+    "RDOF",
+    "TRUMPAW",
+    "MEMMEX",
+    "USDC",
+    "gtusdcp",
+    "VIOR",
+    "1B"
   ],
-  "summary": "This wallet has a low activity score and has primarily been used for receiving tokens. The wallet has been active recently, with multiple transfers in a short period of time.",
+  "summary": "This wallet has been active recently, with 50 transactions in total, but the transactions are minimal and do not indicate any significant activity. The wallet holds a variety of tokens, including Mortal, USAIF, and DIOR. The recent transactions are all transfers of 0 ETH.",
   "alerts": [
-    "Multiple consecutive transfers with zero ETH value may indicate suspicious activity."
+    "Suspicious frequent transfers of 0 ETH"
   ]
 }
