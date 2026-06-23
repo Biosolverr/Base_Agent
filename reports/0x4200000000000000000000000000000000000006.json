@@ -1,17 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-23T14:02:53.000Z",
-  "score": 20,
+  "generatedAt": "2026-06-23T14:00:00.000Z",
+  "score": 10,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been active recently, but the transactions are small and do not indicate any significant activity."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
-    "USDC"
+    "TRUMPLONNER",
+    "RDOF",
+    "BSN"
   ],
-  "summary": "This wallet has been active recently, with 5 transactions in the past few minutes. The transactions are small and do not indicate any significant activity. The wallet holds a small amount of USDC.",
+  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions. It holds a variety of tokens, including TRUMPLONNER, RDOF, and BSN. The wallet's recent transactions are all transfers of 0 ETH.",
   "alerts": []
 }
