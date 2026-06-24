@@ -1,18 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-24T14:04:35.000Z",
+  "generatedAt": "2026-06-24T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently with no significant transactions."
+      "text": "This wallet has been inactive recently, with a series of zero-value transactions."
     }
   ],
   "topTokens": [
     "GLX",
     "Hertha"
   ],
-  "summary": "This wallet has been holding a large amount of ETH and has recently made a series of small transactions.",
+  "summary": "This wallet has a low activity score and has been receiving zero-value transactions. It holds a variety of tokens, including GLX and Hertha. The wallet's recent activity suggests it may be a holder or a dormant account.",
   "alerts": []
 }
