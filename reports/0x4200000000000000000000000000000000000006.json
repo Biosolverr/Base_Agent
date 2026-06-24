@@ -1,21 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-23T14:47:31.000Z",
+  "generatedAt": "2026-06-24T14:04:35.000Z",
   "score": 20,
-  "type": "bot",
+  "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating potential bot activity."
+      "text": "This wallet has been inactive recently with no significant transactions."
     }
   ],
   "topTokens": [
-    "Hertha",
-    "TRUMPLONNER",
-    "RDOF"
+    "GLX",
+    "Hertha"
   ],
-  "summary": "This wallet has been active with 50 transactions, primarily receiving ETH and interacting with various tokens. Recent activity suggests potential bot behavior.",
-  "alerts": [
-    "Suspicious frequent transfers of 0 ETH"
-  ]
+  "summary": "This wallet has been holding a large amount of ETH and has recently made a series of small transactions.",
+  "alerts": []
 }
