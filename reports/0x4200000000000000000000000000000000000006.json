@@ -1,6 +1,6 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-24T14:00:00.000Z",
+  "generatedAt": "2026-06-24T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
@@ -11,8 +11,9 @@
   ],
   "topTokens": [
     "GLX",
-    "Hertha"
+    "Hertha",
+    "TRUMPLONNER"
   ],
-  "summary": "This wallet has a low activity score and has been receiving zero-value transactions. It holds a variety of tokens, including GLX and Hertha. The wallet's recent activity suggests it may be a holder or a dormant account.",
+  "summary": "This wallet has a low activity score and has been involved in 30 token transactions, with a recent series of zero-value transactions.",
   "alerts": []
 }
