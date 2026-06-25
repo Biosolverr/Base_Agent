@@ -1,21 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-25T14:06:00.000Z",
+  "generatedAt": "2026-06-25T14:44:31.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a prolonged period, with recent transactions indicating a potential reset of the wallet."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
-    "Liora",
-    "GLX",
-    "Hertha"
+    "MXP",
+    "TRUMPLONNER"
   ],
-  "summary": "This wallet has a low activity score and has been inactive for a prolonged period, with recent transactions indicating a potential reset of the wallet. The wallet holds a variety of tokens, including Liora, GLX, and Hertha.",
-  "alerts": [
-    "Potential wallet reset detected"
-  ]
+  "summary": "This wallet has a low activity score and has been inactive recently. It has a balance of 289.552 ETH and has received 50 transactions. The wallet has been involved in 30 token transactions.",
+  "alerts": []
 }
