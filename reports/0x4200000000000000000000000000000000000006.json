@@ -6,10 +6,14 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "The wallet has been active with frequent transfers, but no significant token activity."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
-  "topTokens": [],
-  "summary": "This wallet has been active with 50 transactions, mostly transfers, and holds a variety of tokens. There is no significant ETH volume or token activity. The wallet's recent activity suggests a holder or a bot.",
+  "topTokens": [
+    "FOUR",
+    "Liora",
+    "REPPo"
+  ],
+  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions.",
   "alerts": []
 }
