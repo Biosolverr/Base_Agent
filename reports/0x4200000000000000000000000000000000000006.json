@@ -1,18 +1,15 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-25T14:44:31.000Z",
+  "generatedAt": "2026-06-25T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with no significant transactions."
+      "text": "The wallet has been active with frequent transfers, but no significant token activity."
     }
   ],
-  "topTokens": [
-    "MXP",
-    "TRUMPLONNER"
-  ],
-  "summary": "This wallet has a low activity score and has been inactive recently. It has a balance of 289.552 ETH and has received 50 transactions. The wallet has been involved in 30 token transactions.",
+  "topTokens": [],
+  "summary": "This wallet has been active with 50 transactions, mostly transfers, and holds a variety of tokens. There is no significant ETH volume or token activity. The wallet's recent activity suggests a holder or a bot.",
   "alerts": []
 }
