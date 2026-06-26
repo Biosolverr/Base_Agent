@@ -1,21 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-01-01T00:00:00.000Z",
-  "score": 0,
+  "generatedAt": "2026-06-26T14:00:00.000Z",
+  "score": 20,
   "type": "holder",
-  "signals": [],
+  "signals": [
+    {
+      "type": "neutral",
+      "text": "Recent transactions are transfers with no significant value."
+    }
+  ],
   "topTokens": [
     "FOUR",
     "Liora",
-    "REPPo",
-    "MAGA",
-    "TRUMPLONNER",
-    "MXP",
-    "GLX",
-    "Hertha",
-    "RDOF",
-    "BSN"
+    "REPPo"
   ],
-  "summary": "This wallet has a low activity score and has not sent any transactions. It has received 50 transactions and has a balance of 298798.8069 ETH.",
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly transfers. It holds a variety of tokens, including FOUR, Liora, and REPPo.",
   "alerts": []
 }
