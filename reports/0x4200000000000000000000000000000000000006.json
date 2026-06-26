@@ -6,14 +6,13 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers with no significant value."
+      "text": "No significant activity detected in the past 24 hours."
     }
   ],
   "topTokens": [
-    "FOUR",
-    "Liora",
-    "REPPo"
+    "BASEVARIABLE",
+    "AMERICAN"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly transfers. It holds a variety of tokens, including FOUR, Liora, and REPPo.",
+  "summary": "This wallet has been inactive in the past 24 hours, with no significant transactions. It holds a balance of 295338.1135 ETH and has a history of 50 transactions.",
   "alerts": []
 }
