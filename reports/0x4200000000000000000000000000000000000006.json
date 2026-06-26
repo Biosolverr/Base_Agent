@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-25T14:00:00.000Z",
+  "generatedAt": "2026-06-26T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with no significant transactions."
+      "text": "This wallet has been inactive with no significant transactions."
     }
   ],
   "topTokens": [
@@ -14,6 +14,6 @@
     "Liora",
     "REPPo"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions.",
+  "summary": "This wallet holds a significant amount of ETH and has been involved in 30 token transactions. However, recent activity suggests a lack of engagement.",
   "alerts": []
 }
