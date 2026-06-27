@@ -1,18 +1,20 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-26T14:00:00.000Z",
+  "generatedAt": "2026-06-27T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant activity detected in the past 24 hours."
+      "text": "This wallet has been inactive recently, with a series of 0 ETH transfers."
     }
   ],
   "topTokens": [
     "BASEVARIABLE",
     "AMERICAN"
   ],
-  "summary": "This wallet has been inactive in the past 24 hours, with no significant transactions. It holds a balance of 295338.1135 ETH and has a history of 50 transactions.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been inactive recently, with a series of 0 ETH transfers. It has a balance of 295517.7576 ETH and has received 50 transactions. It has interacted with 10 different tokens.",
+  "alerts": [
+    "Suspicious series of 0 ETH transfers"
+  ]
 }
