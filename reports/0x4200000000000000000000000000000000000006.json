@@ -1,19 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-28T14:37:41.000Z",
+  "generatedAt": "2026-06-28T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity indicates a low-activity wallet with no significant transactions."
+      "text": "This wallet has been inactive recently, with a low activity score."
     }
   ],
   "topTokens": [
+    "Eos",
     "WETH",
-    "BASEVARIABLE",
-    "AMERICAN"
+    "BASEVARIABLE"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving tokens. The recent transactions involve transferring small amounts of ETH.",
+  "summary": "This wallet has a low activity score and has been inactive recently, with a focus on holding Eos, WETH, and BASEVARIABLE tokens.",
   "alerts": []
 }
