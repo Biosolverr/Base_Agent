@@ -1,19 +1,20 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-27T00:00:00.000Z",
+  "generatedAt": "2026-06-28T14:11:59.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers with no value, indicating possible account maintenance or testing."
+      "text": "This wallet has been inactive for an extended period."
     }
   ],
   "topTokens": [
     "WETH",
-    "BASEVARIABLE",
-    "AMERICAN"
+    "BASEVARIABLE"
   ],
-  "summary": "This wallet has a low activity score, indicating minimal interaction with the blockchain. Recent transactions involve valueless transfers, which may be related to account maintenance or testing.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been inactive recently. It holds a mix of stablecoins and variable tokens. The wallet has not sent any transactions.",
+  "alerts": [
+    "Suspicious frequent transfers of 0 ETH"
+  ]
 }
