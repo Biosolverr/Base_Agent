@@ -6,7 +6,7 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a low activity score."
+      "text": "No significant activity detected in the recent transactions."
     }
   ],
   "topTokens": [
@@ -14,6 +14,6 @@
     "WETH",
     "BASEVARIABLE"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with a focus on holding Eos, WETH, and BASEVARIABLE tokens.",
+  "summary": "This wallet has a low activity score and has been holding 297390.8681 ETH for a while. It has recently made a series of small transfers.",
   "alerts": []
 }
