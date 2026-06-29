@@ -1,19 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-28T14:00:00.000Z",
+  "generatedAt": "2026-06-29T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant activity detected in the recent transactions."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
+    "ANSEM",
     "Eos",
     "WETH",
-    "BASEVARIABLE"
+    "BASEVARIABLE",
+    "AMERICAN",
+    "FOUR",
+    "Liora",
+    "REPPPO",
+    "MAGA",
+    "TRUMPLONNER"
   ],
-  "summary": "This wallet has a low activity score and has been holding 297390.8681 ETH for a while. It has recently made a series of small transfers.",
+  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions.",
   "alerts": []
 }
