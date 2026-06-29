@@ -1,20 +1,28 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-29T14:17:55.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with no significant transactions."
+      "text": "Recent transactions are transfers of 0 ETH, indicating possible bot activity."
     }
   ],
   "topTokens": [
+    "TRUMP",
     "BASEVARIABLE",
-    "ANSEM"
+    "ANSEM",
+    "Eos",
+    "WETH",
+    "AMERICAN",
+    "FOUR",
+    "Liora",
+    "REPPPO",
+    "MAGA"
   ],
-  "summary": "This wallet has been holding a large amount of ETH and various tokens, with recent activity consisting of frequent transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly transfers of 0 ETH. It holds a variety of tokens, including TRUMP and BASEVARIABLE.",
   "alerts": [
-    "Suspicious frequent transfers of 0 ETH, potentially indicative of a testing or spamming activity."
+    "Suspicious bot activity due to frequent transfers of 0 ETH."
   ]
 }
