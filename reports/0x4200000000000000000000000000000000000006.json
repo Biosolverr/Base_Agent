@@ -1,6 +1,6 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-29T14:00:00.000Z",
+  "generatedAt": "2026-06-29T14:17:55.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
@@ -10,17 +10,11 @@
     }
   ],
   "topTokens": [
-    "ANSEM",
-    "Eos",
-    "WETH",
     "BASEVARIABLE",
-    "AMERICAN",
-    "FOUR",
-    "Liora",
-    "REPPPO",
-    "MAGA",
-    "TRUMPLONNER"
+    "ANSEM"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions.",
-  "alerts": []
+  "summary": "This wallet has been holding a large amount of ETH and various tokens, with recent activity consisting of frequent transfers of 0 ETH.",
+  "alerts": [
+    "Suspicious frequent transfers of 0 ETH, potentially indicative of a testing or spamming activity."
+  ]
 }
