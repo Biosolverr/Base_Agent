@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-30T14:00:00.000Z",
-  "score": 20,
+  "generatedAt": "2026-06-30T00:00:00.000Z",
+  "score": 5,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has a low activity score and has been receiving multiple transfers of 0 ETH."
+      "text": "Recent activity suggests a low-risk holder."
     }
   ],
   "topTokens": [
@@ -14,15 +14,8 @@
     "TRUMP",
     "BASEVARIABLE",
     "ANSEM",
-    "Eos",
-    "WETH",
-    "AMERICAN",
-    "FOUR",
-    "Liora",
-    "REPPPO"
+    "Eos"
   ],
-  "summary": "This wallet has a low activity score and has been receiving multiple transfers of 0 ETH. The wallet has a total of 50 transactions, with 30 of them being token-related. The wallet holds a variety of tokens.",
-  "alerts": [
-    "Suspicious activity: multiple transfers of 0 ETH in a short period of time."
-  ]
+  "summary": "This wallet has been active with 50 transactions, primarily receiving ETH and tokens. The recent activity consists of multiple transfers of 0 ETH, indicating potential testing or maintenance.",
+  "alerts": []
 }
