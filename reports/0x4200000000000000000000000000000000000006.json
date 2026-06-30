@@ -1,18 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-06-29T14:00:00.000Z",
+  "generatedAt": "2026-06-30T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a holder, but no significant transactions."
+      "text": "This wallet has been inactive recently, with a series of small transfers."
     }
   ],
   "topTokens": [
     "TRUMP",
     "BASEVARIABLE"
   ],
-  "summary": "This wallet has a low activity score and has been receiving 0 ETH in recent transactions.",
+  "summary": "This wallet has a low activity score and has been holding a diverse set of tokens, with recent transfers indicating a potential lack of engagement.",
   "alerts": []
 }
