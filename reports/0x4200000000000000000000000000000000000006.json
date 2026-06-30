@@ -6,7 +6,7 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity indicates a stable wallet with no significant transactions."
+      "text": "This wallet has a low activity score and has been receiving multiple transfers of 0 ETH."
     }
   ],
   "topTokens": [
@@ -19,8 +19,10 @@
     "AMERICAN",
     "FOUR",
     "Liora",
-    "REPPo"
+    "REPPPO"
   ],
-  "summary": "This wallet has a low activity score and has been stable with no significant transactions in the past. It holds a variety of tokens.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been receiving multiple transfers of 0 ETH. The wallet has a total of 50 transactions, with 30 of them being token-related. The wallet holds a variety of tokens.",
+  "alerts": [
+    "Suspicious activity: multiple transfers of 0 ETH in a short period of time."
+  ]
 }
