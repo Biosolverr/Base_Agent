@@ -1,26 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-01T14:11:21.000Z",
+  "generatedAt": "2026-07-01T14:25:47.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for an extended period."
+      "text": "No significant activity detected."
     }
   ],
   "topTokens": [
     "OUSD Presale",
-    "Open USD OUSD Presale",
-    "Open USD $OUSD",
-    "Tame",
-    "TRUMP",
-    "BASEVARIABLE",
-    "ANSEM",
-    "Eos",
-    "WETH",
-    "AMERICAN"
+    "WETH"
   ],
-  "summary": "This wallet has a low activity score and has been inactive for an extended period. It has a large ETH balance and has interacted with various tokens. The recent transactions are all transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score and has only received transactions. It holds a mix of tokens, including OUSD Presale and WETH.",
   "alerts": []
 }
