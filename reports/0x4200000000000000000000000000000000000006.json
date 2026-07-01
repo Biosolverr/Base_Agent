@@ -1,18 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-01T14:25:47.000Z",
+  "generatedAt": "2026-07-01T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant activity detected."
+      "text": "Wallet has been inactive recently with no significant transactions."
     }
   ],
   "topTokens": [
-    "OUSD Presale",
-    "WETH"
+    "KUPPO",
+    "OUSD Presale"
   ],
-  "summary": "This wallet has a low activity score and has only received transactions. It holds a mix of tokens, including OUSD Presale and WETH.",
+  "summary": "This wallet has been holding a significant amount of ETH and various tokens, but has been inactive recently with no notable transactions.",
   "alerts": []
 }
