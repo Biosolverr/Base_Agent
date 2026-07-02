@@ -1,14 +1,21 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-02T14:04:00.000Z",
+  "generatedAt": "2026-07-02T14:00:00.000Z",
   "score": 20,
   "type": "holder",
-  "signals": [],
+  "signals": [
+    {
+      "type": "neutral",
+      "text": "Recent transactions suggest low activity, with multiple transfers of 0 ETH in a short period."
+    }
+  ],
   "topTokens": [
     "KUPPO",
     "USOR",
     "OUSD Presale"
   ],
-  "summary": "This wallet has a low activity score and has received 50 transactions, mostly related to token transfers. The wallet holds a significant amount of ETH and various tokens. Recent transactions involve transferring 0 ETH.",
-  "alerts": []
+  "summary": "This wallet has been active with 50 total transactions, mostly receiving ETH and various tokens. Recent transactions show multiple transfers of 0 ETH, indicating low activity.",
+  "alerts": [
+    "Suspicious frequent transfers of 0 ETH"
+  ]
 }
