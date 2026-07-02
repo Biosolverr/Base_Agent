@@ -6,16 +6,14 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions suggest low activity, with multiple transfers of 0 ETH in a short period."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
-    "KUPPO",
-    "USOR",
-    "OUSD Presale"
+    "VELVET",
+    "Shine",
+    "KUPPO"
   ],
-  "summary": "This wallet has been active with 50 total transactions, mostly receiving ETH and various tokens. Recent transactions show multiple transfers of 0 ETH, indicating low activity.",
-  "alerts": [
-    "Suspicious frequent transfers of 0 ETH"
-  ]
+  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions. It holds a variety of tokens, including VELVET, Shine, and KUPPO. The wallet has a large ETH balance but has not transferred any funds in recent transactions.",
+  "alerts": []
 }
