@@ -1,19 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-01T14:38:17.000Z",
+  "generatedAt": "2026-07-02T14:04:11.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant activity detected in the past 24 hours."
+      "text": "Recent transactions suggest a stable balance, with no significant activity."
     }
   ],
   "topTokens": [
     "KUPPO",
-    "USOR",
-    "OUSD Presale"
+    "USOR"
   ],
-  "summary": "This wallet has been inactive for an extended period, with no significant transactions in the past 24 hours. The wallet holds a large amount of ETH and various tokens. The recent transactions were small and likely for testing or maintenance purposes.",
+  "summary": "This wallet holds a significant amount of ETH and has been involved in 30 token transactions. Recent transactions indicate a stable balance with no significant activity.",
   "alerts": []
 }
