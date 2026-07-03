@@ -1,21 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-03T14:00:00.000Z",
+  "generatedAt": "2026-07-03T14:14:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-activity wallet with no significant transactions."
+      "text": "This wallet has been inactive for an extended period with recent low-value transactions."
     }
   ],
   "topTokens": [
     "VELVET",
     "Shine",
-    "KUPPO",
-    "USOR",
-    "OUSD Presale"
+    "KUPPO"
   ],
-  "summary": "This wallet has a low activity score and has primarily been used for receiving tokens. Recent transactions were small and insignificant.",
+  "summary": "This wallet has a low activity score and has been sending small amounts of ETH in recent transactions. It holds a variety of tokens, including VELVET, Shine, and KUPPO. The wallet's balance is 270758.2776 ETH.",
   "alerts": []
 }
