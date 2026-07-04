@@ -1,18 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-04T14:19:53.000Z",
+  "generatedAt": "2026-07-04T12:55:37.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant activity detected in the recent transactions."
+      "text": "This wallet has been inactive recently, with a series of small transfers."
     }
   ],
   "topTokens": [
+    "Eutopia",
     "KUPPO",
     "USDC"
   ],
-  "summary": "This wallet has a low activity score and has been holding a balance of 267.472 ETH. The recent transactions were minor transfers.",
+  "summary": "This wallet has a low activity score and has been inactive recently, with a series of small transfers. It holds a variety of tokens, including Eutopia, KUPPO, and USDC. The wallet has a large ETH balance but no significant ETH volume.",
   "alerts": []
 }
