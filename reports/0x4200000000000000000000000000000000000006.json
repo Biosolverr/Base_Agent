@@ -1,23 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-05T14:37:31.000Z",
-  "score": 0,
-  "type": "bot",
-  "signals": [],
-  "topTokens": [
-    "Eutopia",
-    "KUPPO",
-    "USDC",
-    "NFA",
-    "Shine",
-    "PORSCHE",
-    "VELVET",
-    "USOR",
-    "OUSD Presale",
-    "Open USD OUSD Presale"
+  "generatedAt": "2026-07-05T14:00:00.000Z",
+  "score": 20,
+  "type": "holder",
+  "signals": [
+    {
+      "type": "neutral",
+      "text": "Recent transactions are low-value transfers."
+    }
   ],
-  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. Recent transactions include multiple transfers of 0 ETH.",
-  "alerts": [
-    "Suspicious frequent transfers of 0 ETH"
-  ]
+  "topTokens": [
+    "DTCC Ripple XRP",
+    "USDC"
+  ],
+  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. Recent transactions are low-value transfers.",
+  "alerts": []
 }
