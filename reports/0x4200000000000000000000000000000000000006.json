@@ -1,19 +1,25 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-04T14:00:00.000Z",
+  "generatedAt": "2026-07-05T14:52:23.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant onchain activity detected."
+      "text": "Recent transactions are transfers of 0 ETH."
     }
   ],
   "topTokens": [
     "Eutopia",
     "KUPPO",
-    "USDC"
+    "USDC",
+    "NFA",
+    "Shine",
+    "PORSCHE",
+    "VELVET",
+    "USOR",
+    "OUSD Presale"
   ],
-  "summary": "This wallet has a low activity score and has been holding onto its assets. Recent transactions involve transferring small amounts of ETH. The wallet holds a variety of tokens.",
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving tokens. The recent transactions are transfers of 0 ETH.",
   "alerts": []
 }
