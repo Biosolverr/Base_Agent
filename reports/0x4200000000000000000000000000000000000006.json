@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-06T14:52:37.000Z",
+  "generatedAt": "2026-07-06T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity indicates a possible wallet sweep or clearing of funds."
+      "text": "This wallet has shown low activity in the past 24 hours with no significant transactions."
     }
   ],
   "topTokens": [
@@ -14,8 +14,6 @@
     "MAGA",
     "USDC"
   ],
-  "summary": "This wallet has a low activity score and has recently transferred 0 ETH multiple times. It holds a variety of tokens, including EBH, MAGA, and USDC.",
-  "alerts": [
-    "Suspicious transfer activity with multiple 0 ETH transactions in a short period."
-  ]
+  "summary": "This wallet has a low activity score and has primarily been involved in transferring small amounts of ETH. It also holds a variety of tokens including EBH, MAGA, and USDC.",
+  "alerts": []
 }
