@@ -1,21 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-06T14:00:00.000Z",
+  "generatedAt": "2026-07-06T14:51:41.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant activity detected in the past hour."
+      "text": "Recent transactions indicate a low activity level."
     }
   ],
   "topTokens": [
     "MAGA",
     "DTCC Ripple XRP",
-    "Eutopia",
-    "KUPPO",
     "USDC"
   ],
-  "summary": "This wallet has been holding ETH for a while, with 50 transactions in total. The recent transactions are all transfers of 0 ETH, indicating no significant activity.",
+  "summary": "This wallet has a low activity level, with 50 total transactions and a recent series of 0 ETH transfers. The wallet holds a variety of tokens, including MAGA, DTCC Ripple XRP, and USDC.",
   "alerts": []
 }
