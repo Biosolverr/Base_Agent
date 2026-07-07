@@ -1,19 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-06T14:00:00.000Z",
+  "generatedAt": "2026-07-07T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has shown low activity in the past 24 hours with no significant transactions."
+      "text": "This wallet has been inactive recently, with a series of zero-ETH transactions."
     }
   ],
   "topTokens": [
     "EBH",
     "MAGA",
-    "USDC"
+    "DTCC Ripple XRP",
+    "Eutopia",
+    "KUPPO",
+    "USDC",
+    "NFA",
+    "Shine",
+    "PORSCHE",
+    "VELVET"
   ],
-  "summary": "This wallet has a low activity score and has primarily been involved in transferring small amounts of ETH. It also holds a variety of tokens including EBH, MAGA, and USDC.",
+  "summary": "This wallet has a low activity score and has been holding a variety of tokens, with recent transactions being zero-ETH transfers.",
   "alerts": []
 }
