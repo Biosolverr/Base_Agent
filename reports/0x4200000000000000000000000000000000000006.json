@@ -1,18 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-07T14:30:00.000Z",
+  "generatedAt": "2026-07-07T14:36:37.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-activity holder."
+      "text": "This wallet has been inactive for a long period."
     }
   ],
   "topTokens": [
+    "Ferry",
     "WETH",
     "USDC"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, primarily receiving tokens. The recent transactions are small and likely indicative of a holder.",
+  "summary": "This wallet has a low activity score and has been inactive for a long period. It has a balance of 274622.4909 ETH and has sent 0 transactions in the past 24 hours.",
   "alerts": []
 }
