@@ -1,19 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-07T14:20:25.000Z",
+  "generatedAt": "2026-07-07T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Wallet has been inactive recently with no significant transactions."
+      "text": "Recent activity suggests a low-activity holder."
     }
   ],
   "topTokens": [
-    "EBH",
-    "MAGA",
+    "WETH",
     "USDC"
   ],
-  "summary": "This wallet has a low activity score and has been holding a variety of tokens. It has not sent any transactions in the past 50 total transactions, which were all received. The wallet's recent activity has been minimal.",
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, primarily receiving tokens. The recent transactions are small and likely indicative of a holder.",
   "alerts": []
 }
