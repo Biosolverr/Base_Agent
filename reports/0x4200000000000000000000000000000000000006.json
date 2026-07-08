@@ -6,14 +6,13 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions show no significant activity."
+      "text": "Recent activity indicates a low level of engagement with the wallet."
     }
   ],
   "topTokens": [
-    "$jessepolak",
     "WETH",
     "USDC"
   ],
-  "summary": "This wallet has been inactive with 50 total transactions, mostly receiving ETH and tokens. The recent transactions show a series of small transfers with no significant activity. The wallet holds a substantial amount of ETH.",
+  "summary": "This wallet has a low activity score and has been holding a significant amount of ETH for a long time. The recent transactions are transfers of small amounts of ETH. The wallet is likely a holder of ETH.",
   "alerts": []
 }
