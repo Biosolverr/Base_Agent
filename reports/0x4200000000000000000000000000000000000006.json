@@ -1,19 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-08T14:05:11.000Z",
+  "generatedAt": "2026-07-08T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-activity wallet with no significant transactions."
+      "text": "Recent transactions show no significant activity."
     }
   ],
   "topTokens": [
-    "Ferry",
+    "$jessepolak",
     "WETH",
     "USDC"
   ],
-  "summary": "This wallet has a low activity score and has received 50 transactions, primarily involving the transfer of small amounts of ETH and various tokens.",
+  "summary": "This wallet has been inactive with 50 total transactions, mostly receiving ETH and tokens. The recent transactions show a series of small transfers with no significant activity. The wallet holds a substantial amount of ETH.",
   "alerts": []
 }
