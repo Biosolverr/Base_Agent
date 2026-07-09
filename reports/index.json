@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-09T14:26:36.183Z",
+  "updatedAt": "2026-07-09T19:18:41.975Z",
   "wallets": [
     {
       "address": "0x4200000000000000000000000000000000000006",
-      "generatedAt": "2026-07-09T14:30:00.000Z",
-      "score": 20,
-      "type": "holder"
+      "generatedAt": "2024-01-01T00:00:00Z",
+      "score": 0,
+      "type": "new_wallet"
     }
   ]
 }

@@ -1,26 +1,10 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-09T14:30:00.000Z",
-  "score": 20,
-  "type": "holder",
-  "signals": [
-    {
-      "type": "neutral",
-      "text": "This wallet has been inactive recently, with only transfer transactions."
-    }
-  ],
-  "topTokens": [
-    "Stars",
-    "XAVIER",
-    "CPS",
-    "ARB",
-    "Britney",
-    "$jessepolak",
-    "Ferry",
-    "WETH",
-    "EBH",
-    "MAGA"
-  ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with only transfer transactions.",
+  "generatedAt": "2024-01-01T00:00:00Z",
+  "score": 0,
+  "type": "new_wallet",
+  "signals": [],
+  "topTokens": [],
+  "summary": "This wallet has no on-chain activity.",
   "alerts": []
 }
