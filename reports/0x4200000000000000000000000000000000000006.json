@@ -1,20 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-01-01T00:00:00.000Z",
-  "score": 80,
+  "generatedAt": "2026-07-09T14:30:00.000Z",
+  "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been active with frequent transfers, but no significant ETH volume."
+      "text": "This wallet has been inactive recently, with only transfer transactions."
     }
   ],
   "topTokens": [
+    "Stars",
+    "XAVIER",
+    "CPS",
     "ARB",
-    "WETH"
+    "Britney",
+    "$jessepolak",
+    "Ferry",
+    "WETH",
+    "EBH",
+    "MAGA"
   ],
-  "summary": "This wallet has been active with 50 transactions, mostly receiving ETH and interacting with various tokens. The recent transactions involve frequent transfers of 0 ETH.",
-  "alerts": [
-    "Suspicious frequent transfers of 0 ETH"
-  ]
+  "summary": "This wallet has a low activity score and has been inactive recently, with only transfer transactions.",
+  "alerts": []
 }
