@@ -1,26 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-11T14:29:29.000Z",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
+      "text": "The wallet has a low activity score and has only transferred small amounts of ETH recently."
     }
   ],
   "topTokens": [
-    "SROS",
-    "$jessepolak",
-    "Pioneer",
-    "TWIS",
-    "Stars",
-    "XAVIER",
-    "CPS",
-    "ARB",
-    "Britney",
-    "Ferry"
+    "ZOE",
+    "SROS"
   ],
-  "summary": "This wallet has been active with 50 transactions, mostly receiving tokens. The recent transactions are transfers of 0 ETH, indicating no significant activity.",
+  "summary": "This wallet has a low activity score and has primarily been transferring small amounts of ETH and various tokens. The wallet has received 50 transactions but has only sent 0 ETH. The wallet has a significant ETH balance.",
   "alerts": []
 }
