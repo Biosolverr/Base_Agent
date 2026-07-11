@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-10T14:13:11.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2026-07-11T14:00:00.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
+      "text": "Recent transactions are transfers of 0 ETH."
     }
   ],
   "topTokens": [
@@ -21,6 +21,8 @@
     "Britney",
     "Ferry"
   ],
-  "summary": "This wallet holds a significant amount of ETH and has been involved in 30 token transactions, indicating a holder's activity. Recent transactions are transfers of 0 ETH, indicating no significant activity.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving tokens. The recent transactions are transfers of 0 ETH.",
+  "alerts": [
+    "Suspicious frequent transfers of 0 ETH"
+  ]
 }
