@@ -6,21 +6,21 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-activity holder."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
+    "CAIUS",
+    "$jessepolak",
     "ZOE",
     "SROS",
-    "$jessepolak",
     "Pioneer",
     "TWIS",
     "Stars",
     "XAVIER",
     "CPS",
-    "ARB",
-    "Britney"
+    "ARB"
   ],
-  "summary": "This wallet has been active with 50 transactions, mostly receiving tokens. The wallet has a low ETH balance and no significant ETH volume.",
+  "summary": "This wallet has a low activity score and has been inactive recently, with a total of 50 transactions and 13 ETH volume. The wallet holds a variety of tokens, including CAIUS, $jessepolak, and ZOE.",
   "alerts": []
 }
