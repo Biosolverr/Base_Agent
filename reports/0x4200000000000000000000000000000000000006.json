@@ -1,19 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-12T14:00:00.000Z",
+  "generatedAt": "2026-07-13T14:27:15.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a high ETH balance and no significant transactions."
+      "text": "Low activity wallet with a small number of transactions and a moderate ETH balance."
     }
   ],
   "topTokens": [
+    "openhuman",
+    "UNC",
     "CAIUS",
     "$jessepolak",
-    "ZOE"
+    "ZOE",
+    "SROS",
+    "Pioneer",
+    "TWIS",
+    "Stars",
+    "XAVIER"
   ],
-  "summary": "This wallet has a high ETH balance and has been inactive recently, with no significant transactions or token activity.",
+  "summary": "This wallet has a moderate ETH balance and a small number of transactions, indicating it may be a holder wallet. The recent transactions are small and frequent, suggesting a low activity level.",
   "alerts": []
 }
