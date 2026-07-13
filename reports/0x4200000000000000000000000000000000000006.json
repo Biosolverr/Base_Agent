@@ -1,6 +1,6 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-13T14:00:00.000Z",
+  "generatedAt": "2026-07-13T14:08:09.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
@@ -14,12 +14,8 @@
     "$jessepolak",
     "VIP",
     "HP",
-    "ARO",
-    "openhuman",
-    "UNC",
-    "CAIUS",
-    "ZOE"
+    "ARO"
   ],
-  "summary": "This wallet holds a significant amount of ETH and has been involved in 30 token transactions. Recent transactions are transfers of 0 ETH, indicating no significant activity.",
+  "summary": "This wallet has a low activity score and has been holding ETH for a while. It has received 50 transactions, mostly transfers of 0 ETH, and has a total of 30 token transactions.",
   "alerts": []
 }
