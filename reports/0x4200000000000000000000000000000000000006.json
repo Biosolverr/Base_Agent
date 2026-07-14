@@ -1,21 +1,20 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-13T14:08:09.000Z",
+  "generatedAt": "2026-07-14T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
+      "text": "This wallet has been inactive for a while, with no significant transactions."
     }
   ],
   "topTokens": [
-    "Novastar",
-    "$jessepolak",
-    "VIP",
-    "HP",
-    "ARO"
+    "USDC",
+    "Novastar"
   ],
-  "summary": "This wallet has a low activity score and has been holding ETH for a while. It has received 50 transactions, mostly transfers of 0 ETH, and has a total of 30 token transactions.",
-  "alerts": []
+  "summary": "This wallet has a balance of 288114.5898 ETH and has received 50 transactions. It has been inactive recently, with a series of small transfers.",
+  "alerts": [
+    "Suspicious frequent transfers with 0 ETH value"
+  ]
 }
