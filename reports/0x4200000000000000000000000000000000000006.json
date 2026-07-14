@@ -1,19 +1,25 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-14T14:00:00.000Z",
+  "generatedAt": "2026-07-14T14:58:05.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "The wallet has been inactive for an extended period, with recent transactions being small transfers."
+      "text": "Recent activity indicates a possible low-activity wallet."
     }
   ],
   "topTokens": [
-    "TrumpCoin",
+    "MAGA",
     "Lris",
-    "USDC"
+    "TrumpCoin",
+    "USDC",
+    "Novastar",
+    "$jessepolak",
+    "VIP",
+    "HP",
+    "ARO"
   ],
-  "summary": "This wallet has a moderate activity score and has been holding a variety of tokens, with recent transactions being small transfers.",
+  "summary": "This wallet has a low activity score and has received 50 transactions, mostly in the form of token transfers. The wallet holds a diverse portfolio of tokens.",
   "alerts": []
 }
