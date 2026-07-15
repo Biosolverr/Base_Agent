@@ -6,20 +6,14 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-activity wallet with no significant transactions."
+      "text": "Recent activity suggests a low-risk wallet with minimal transactions."
     }
   ],
   "topTokens": [
+    "NFA",
     "BlackBull",
-    "PUNCH",
-    "$ETH",
-    "MAGA",
-    "Lris",
-    "TrumpCoin",
-    "USDC",
-    "Novastar",
-    "$jessepolak"
+    "PUNCH"
   ],
-  "summary": "This wallet has a low activity score and has received 50 transactions, mostly in the form of token transfers. The recent transactions are all transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score, indicating minimal transactions and a low-risk profile. The wallet holds a variety of tokens, including NFA, BlackBull, and PUNCH. Recent transactions suggest a focus on transferring small amounts of ETH.",
   "alerts": []
 }
