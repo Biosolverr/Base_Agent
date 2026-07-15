@@ -1,21 +1,25 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-01-01T00:00:00.000Z",
-  "score": 20,
+  "generatedAt": "2026-07-15T14:47:09.000Z",
+  "score": 30,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for an extended period."
+      "text": "This wallet has moderate activity, with a mix of received and sent transactions."
     }
   ],
   "topTokens": [
+    "ETH",
     "BlackBull",
     "MAGA",
-    "Lris"
+    "Lris",
+    "TrumpCoin",
+    "USDC",
+    "Novastar",
+    "$jessepolak",
+    "VIP"
   ],
-  "summary": "This wallet has a low activity score and has been inactive for an extended period. It holds a variety of tokens, including BlackBull, MAGA, and Lris. The wallet has a large ETH balance and has received 50 transactions.",
-  "alerts": [
-    "Suspicious transfer activity to unknown contracts"
-  ]
+  "summary": "This wallet has a moderate activity score, with 50 total transactions and 68 ETH in volume. The wallet has a mix of received and sent transactions, with a focus on ETH and various tokens.",
+  "alerts": []
 }
