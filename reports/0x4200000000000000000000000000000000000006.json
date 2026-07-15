@@ -1,25 +1,25 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-15T14:47:09.000Z",
-  "score": 30,
+  "generatedAt": "2026-07-15T14:00:00.000Z",
+  "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has moderate activity, with a mix of received and sent transactions."
+      "text": "Recent activity suggests a low-activity wallet with no significant transactions."
     }
   ],
   "topTokens": [
-    "ETH",
     "BlackBull",
+    "PUNCH",
+    "$ETH",
     "MAGA",
     "Lris",
     "TrumpCoin",
     "USDC",
     "Novastar",
-    "$jessepolak",
-    "VIP"
+    "$jessepolak"
   ],
-  "summary": "This wallet has a moderate activity score, with 50 total transactions and 68 ETH in volume. The wallet has a mix of received and sent transactions, with a focus on ETH and various tokens.",
+  "summary": "This wallet has a low activity score and has received 50 transactions, mostly in the form of token transfers. The recent transactions are all transfers of 0 ETH.",
   "alerts": []
 }
