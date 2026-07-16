@@ -1,19 +1,21 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-16T14:00:00.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
-      "type": "neutral",
-      "text": "Recent activity indicates low volume and no significant transactions."
+      "type": "bearish",
+      "text": "Recent activity suggests a potential bot or spam account."
     }
   ],
   "topTokens": [
-    "CBBTC",
-    "WETH",
-    "NFA"
+    "PUNCH",
+    "Noor",
+    "CBBTC"
   ],
-  "summary": "This wallet has a low activity score and has been holding a variety of tokens, including CBBTC, WETH, and NFA. Recent transactions indicate low volume and no significant activity. The wallet has a total of 50 transactions.",
-  "alerts": []
+  "summary": "This wallet has been active with 50 transactions, primarily transferring tokens. The recent transactions involve transferring 0 ETH, indicating potential spam or bot activity.",
+  "alerts": [
+    "Suspicious spam or bot activity detected."
+  ]
 }
