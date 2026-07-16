@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-15T14:00:00.000Z",
+  "generatedAt": "2026-07-16T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-risk wallet with minimal transactions."
+      "text": "This wallet has been inactive recently with no significant transactions."
     }
   ],
   "topTokens": [
@@ -14,6 +14,6 @@
     "BlackBull",
     "PUNCH"
   ],
-  "summary": "This wallet has a low activity score, indicating minimal transactions and a low-risk profile. The wallet holds a variety of tokens, including NFA, BlackBull, and PUNCH. Recent transactions suggest a focus on transferring small amounts of ETH.",
+  "summary": "This wallet has an ETH balance of 262788.6358 ETH and has received 50 transactions. The recent transactions are all transfers of 0 ETH.",
   "alerts": []
 }
