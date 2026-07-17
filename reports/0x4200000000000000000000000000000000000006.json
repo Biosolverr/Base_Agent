@@ -1,19 +1,17 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-17T14:30:00.000Z",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests this wallet is holding assets, but no significant transactions have been made."
+      "text": "This wallet has been inactive recently, with only a few transactions in the past hour."
     }
   ],
   "topTokens": [
-    "CCAT",
-    "MAGA",
-    "PUNCH"
+    "WETH"
   ],
-  "summary": "This wallet has a low activity score and has been holding assets, with recent transactions being transfers of 0 ETH. It has a diverse portfolio of tokens, including CCAT, MAGA, and PUNCH.",
+  "summary": "This wallet has a moderate activity score and is likely a holder of the WETH token. It has a large ETH balance and has received 50 transactions in total. The recent transactions are mostly transfers of small amounts.",
   "alerts": []
 }
