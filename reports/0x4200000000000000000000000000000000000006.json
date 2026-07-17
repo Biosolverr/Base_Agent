@@ -1,17 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "generatedAt": "2026-07-17T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with only a few transactions in the past hour."
+      "text": "Recent transactions are small and frequent, indicating potential wallet maintenance."
     }
   ],
   "topTokens": [
-    "WETH"
+    "PUNCH",
+    "SUPER",
+    "ZEB"
   ],
-  "summary": "This wallet has a moderate activity score and is likely a holder of the WETH token. It has a large ETH balance and has received 50 transactions in total. The recent transactions are mostly transfers of small amounts.",
+  "summary": "This wallet has a low activity score and has recently sent small amounts of ETH. It holds a variety of tokens, including PUNCH, SUPER, and ZEB.",
   "alerts": []
 }
