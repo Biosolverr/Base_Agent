@@ -1,28 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-16T14:51:43.000Z",
+  "generatedAt": "2026-07-17T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-risk wallet with minimal transactions."
+      "text": "Recent activity suggests this wallet is holding assets, but no significant transactions have been made."
     }
   ],
   "topTokens": [
+    "CCAT",
     "MAGA",
-    "PUNCH",
-    "Noor",
-    "CBBTC",
-    "WETH",
-    "NFA",
-    "BlackBull",
-    "$ETH",
-    "Lris",
-    "TrumpCoin"
+    "PUNCH"
   ],
-  "summary": "This wallet has a moderate ETH balance and has been involved in 30 token transactions. Recent activity includes a series of small transfers.",
-  "alerts": [
-    "Suspicious frequent transfers with 0 ETH value."
-  ]
+  "summary": "This wallet has a low activity score and has been holding assets, with recent transactions being transfers of 0 ETH. It has a diverse portfolio of tokens, including CCAT, MAGA, and PUNCH.",
+  "alerts": []
 }
