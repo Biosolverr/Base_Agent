@@ -1,19 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-18T14:30:00.000Z",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a low ETH volume and no significant token activity."
+      "text": "This wallet has low activity and no significant transactions."
     }
   ],
   "topTokens": [
-    "PUNCH",
-    "SUPER",
-    "ZEB"
+    "ETB",
+    "WETH"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with a focus on holding tokens such as PUNCH, SUPER, and ZEB.",
+  "summary": "This wallet has been inactive with a balance of 285133.6807 ETH and has only received 50 transactions, mostly involving token transfers.",
   "alerts": []
 }
