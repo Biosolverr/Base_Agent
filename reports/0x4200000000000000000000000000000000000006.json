@@ -1,18 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-19T14:30:00.000Z",
-  "score": 20,
+  "generatedAt": "2026-07-19T14:00:00.000Z",
+  "score": 0,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with multiple consecutive zero-ETH transactions."
+      "text": "No significant on-chain activity detected."
     }
   ],
   "topTokens": [
+    "FOX",
     "BFS/MRBEAST",
-    "COAP"
+    "COAP",
+    "UOR",
+    "VORV",
+    "IFC",
+    "Ori",
+    "ETB",
+    "WETH",
+    "PUNCH"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with multiple consecutive zero-ETH transactions.",
+  "summary": "This wallet has been inactive, with 50 total transactions, all of which were receiving 0 ETH. The wallet holds a diverse portfolio of 10 tokens.",
   "alerts": []
 }
