@@ -1,21 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-18T14:42:55.000Z",
+  "generatedAt": "2026-07-19T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Wallet has been inactive for a while, with recent transactions being small transfers."
+      "text": "This wallet has been inactive recently, with multiple consecutive zero-ETH transactions."
     }
   ],
   "topTokens": [
-    "VORV",
-    "IFC",
-    "Ori",
-    "ETB",
-    "WETH"
+    "BFS/MRBEAST",
+    "COAP"
   ],
-  "summary": "This wallet has been holding a significant amount of ETH, with recent transactions indicating possible self-transfers.",
+  "summary": "This wallet has a low activity score and has been inactive recently, with multiple consecutive zero-ETH transactions.",
   "alerts": []
 }
