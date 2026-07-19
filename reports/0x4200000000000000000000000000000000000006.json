@@ -6,15 +6,14 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "Wallet has been inactive for an extended period."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
-    "FOX",
-    "BFS/MRBEAST"
+    "TRC",
+    "DOT",
+    "Atopos"
   ],
-  "summary": "This wallet has been inactive for an extended period, with no significant transactions. It holds a small amount of ETH and two tokens, FOX and BFS/MRBEAST.",
-  "alerts": [
-    "Suspiciously frequent transfers of 0 ETH"
-  ]
+  "summary": "This wallet has a low activity score and has been inactive recently, with only small transfers to unknown contracts.",
+  "alerts": []
 }
