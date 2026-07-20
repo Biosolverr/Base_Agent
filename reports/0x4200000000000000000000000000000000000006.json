@@ -1,19 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-20T14:12:00.000Z",
+  "generatedAt": "2024-03-21T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with no significant transactions."
+      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
     }
   ],
   "topTokens": [
-    "GAOF",
-    "TRC",
-    "DOT"
+    "DOW",
+    "DOT",
+    "Agamemnon"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with only a few recent transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score and has been holding tokens such as DOW, DOT, and Agamemnon. Recent transactions are transfers of 0 ETH, indicating no significant activity.",
   "alerts": []
 }
