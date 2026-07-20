@@ -1,6 +1,6 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-03-21T14:30:00.000Z",
+  "generatedAt": "2026-07-20T14:21:27.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
@@ -10,10 +10,17 @@
     }
   ],
   "topTokens": [
+    "Argos",
+    "KAI",
     "DOW",
     "DOT",
-    "Agamemnon"
+    "Agamemnon",
+    "GAOF",
+    "TRC",
+    "Atopos",
+    "FOX",
+    "BFS/MRBEAST"
   ],
-  "summary": "This wallet has a low activity score and has been holding tokens such as DOW, DOT, and Agamemnon. Recent transactions are transfers of 0 ETH, indicating no significant activity.",
+  "summary": "This wallet has a low activity score and has been receiving 50 transactions, mostly transfers of 0 ETH. It holds a variety of tokens, including Argos, KAI, and DOW.",
   "alerts": []
 }
