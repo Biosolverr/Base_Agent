@@ -1,19 +1,15 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-21T14:00:00.000Z",
-  "score": 20,
+  "generatedAt": "2026-07-21T14:03:37.000Z",
+  "score": 0,
   "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a while with recent low-value transactions."
+      "text": "No significant onchain activity detected."
     }
   ],
-  "topTokens": [
-    "DOW",
-    "Argos",
-    "KAI"
-  ],
-  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. It has been active recently with multiple low-value transfers.",
+  "topTokens": [],
+  "summary": "This wallet has been inactive with no significant transactions, holding 263420.2087 ETH.",
   "alerts": []
 }
