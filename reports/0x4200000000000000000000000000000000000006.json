@@ -1,15 +1,15 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-21T14:03:37.000Z",
+  "generatedAt": "2026-07-21T14:00:00.000Z",
   "score": 0,
   "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant onchain activity detected."
+      "text": "Recent transactions are transfers, but no significant activity detected."
     }
   ],
   "topTokens": [],
-  "summary": "This wallet has been inactive with no significant transactions, holding 263420.2087 ETH.",
+  "summary": "This wallet has been inactive, with recent transactions being transfers of 0 ETH.",
   "alerts": []
 }
