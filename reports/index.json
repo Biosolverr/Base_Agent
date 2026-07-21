@@ -1,11 +1,9 @@
 {
-  "updatedAt": "2026-07-21T13:12:14.802Z",
+  "updatedAt": "2026-07-21T19:01:19.687Z",
   "wallets": [
     {
       "address": "0x4200000000000000000000000000000000000006",
-      "generatedAt": "2026-07-21T14:00:00.000Z",
-      "score": 0,
-      "type": "bot"
+      "error": "request to https://api.groq.com/openai/v1/chat/completions failed, reason: "
     }
   ]
 }
