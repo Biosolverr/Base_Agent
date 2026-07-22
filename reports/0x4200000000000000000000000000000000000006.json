@@ -1,19 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-22T14:05:01.000Z",
+  "generatedAt": "2026-07-22T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for an extended period."
+      "text": "This wallet has been inactive recently, with a series of zero-ETH transfers."
     }
   ],
   "topTokens": [
-    "USGR",
-    "THE BUILDERS",
-    "OpenAI"
+    "DC",
+    "USGR"
   ],
-  "summary": "This wallet has a balance of 265011.9813 ETH and has received 50 transactions. The recent transactions were transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score and has been receiving 0 ETH in recent transactions. It holds a variety of tokens, including DC and USGR. The wallet's behavior is consistent with a holder who has not been actively trading.",
   "alerts": []
 }
