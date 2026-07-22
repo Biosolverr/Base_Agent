@@ -1,26 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-22T14:30:00.000Z",
+  "generatedAt": "2026-07-22T14:05:01.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a stable account with no significant transactions."
+      "text": "This wallet has been inactive for an extended period."
     }
   ],
   "topTokens": [
+    "USGR",
     "THE BUILDERS",
-    "OpenAI",
-    "AWR",
-    "DOW",
-    "Argos",
-    "KAI",
-    "DOT",
-    "Agamemnon",
-    "GAOF",
-    "TRC"
+    "OpenAI"
   ],
-  "summary": "This wallet has a balance of 263.795 ETH and has received 50 transactions, mostly related to token transfers. The recent transactions are all transfers of 0 ETH, indicating no significant activity.",
+  "summary": "This wallet has a balance of 265011.9813 ETH and has received 50 transactions. The recent transactions were transfers of 0 ETH.",
   "alerts": []
 }
