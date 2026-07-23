@@ -1,17 +1,17 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-23T14:00:00.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2026-07-23T14:07:35.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
+      "text": "Recent transactions are all zero-value transfers."
     }
   ],
   "topTokens": [
-    "ZKS",
     "DC",
+    "ZKS",
     "WETH",
     "USGR",
     "THE BUILDERS",
@@ -21,6 +21,8 @@
     "Argos",
     "KAI"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, with 30 of them being token-related. The recent transactions are transfers of 0 ETH, indicating no significant activity. The wallet holds a variety of tokens.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, with 30 of them being related to token transfers. The recent transactions are all zero-value transfers.",
+  "alerts": [
+    "Suspicious zero-value transfers in the last few minutes."
+  ]
 }
