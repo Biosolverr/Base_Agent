@@ -6,16 +6,16 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a while, with recent transactions indicating a possible attempt to interact with the network."
+      "text": "Recent transactions are small and frequent, indicating possible wallet maintenance or testing."
     }
   ],
   "topTokens": [
+    "BOP",
+    "DOW",
     "DC",
     "ZKS",
     "WETH"
   ],
-  "summary": "This wallet has a low activity score, indicating that it has not been actively used in a while. The recent transactions were small and may be indicative of a test or a failed attempt to interact with the network.",
-  "alerts": [
-    "Suspicious low-value transactions"
-  ]
+  "summary": "This wallet has a low activity score and has been involved in 30 token transactions. Recent transactions are small and frequent.",
+  "alerts": []
 }
