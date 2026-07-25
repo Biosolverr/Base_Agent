@@ -1,19 +1,28 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-24T14:08:27.000Z",
+  "generatedAt": "2026-07-25T14:26:19.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a holder with low transaction frequency."
+      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
     }
   ],
   "topTokens": [
     "AIP",
     "Claude",
-    "BOP"
+    "BOP",
+    "DOW",
+    "DC",
+    "ZKS",
+    "WETH",
+    "USGR",
+    "THE BUILDERS",
+    "OpenAI"
   ],
-  "summary": "This wallet has a low activity score and has primarily received 50 transactions, with a focus on various tokens. The recent transactions involve transfers of 0 ETH, indicating minimal activity.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has recently transferred 0 ETH multiple times, suggesting a holder or dormant wallet.",
+  "alerts": [
+    "Suspicious frequent transfers of 0 ETH"
+  ]
 }
