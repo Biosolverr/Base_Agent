@@ -1,26 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-25T14:36:00.000Z",
+  "generatedAt": "2026-07-25T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with no significant transactions."
+      "text": "Recent activity suggests a stable and inactive wallet."
     }
   ],
   "topTokens": [
     "AIP",
     "Claude",
-    "BOP",
-    "DOW",
-    "DC",
-    "ZKS",
-    "WETH",
-    "USGR",
-    "THE BUILDERS",
-    "OpenAI"
+    "BOP"
   ],
-  "summary": "This wallet has been holding a large amount of ETH for an extended period, with minimal activity in recent transactions.",
+  "summary": "This wallet has been inactive for a while, with only recent transfers of 0 ETH. It holds a variety of tokens, including AIP and Claude.",
   "alerts": []
 }
