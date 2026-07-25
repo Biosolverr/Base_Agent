@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-25T14:26:19.000Z",
+  "generatedAt": "2026-07-25T14:36:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
+      "text": "This wallet has been inactive recently, with no significant transactions."
     }
   ],
   "topTokens": [
@@ -21,8 +21,6 @@
     "THE BUILDERS",
     "OpenAI"
   ],
-  "summary": "This wallet has a low activity score and has recently transferred 0 ETH multiple times, suggesting a holder or dormant wallet.",
-  "alerts": [
-    "Suspicious frequent transfers of 0 ETH"
-  ]
+  "summary": "This wallet has been holding a large amount of ETH for an extended period, with minimal activity in recent transactions.",
+  "alerts": []
 }
