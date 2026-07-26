@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-25T14:47:23.000Z",
-  "score": 0,
+  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
+      "text": "Wallet has been inactive recently, with no notable transactions."
     }
   ],
   "topTokens": [
@@ -21,6 +21,6 @@
     "USGR",
     "THE BUILDERS"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, with 30 of them being token-related. The recent transactions are transfers of 0 ETH, indicating no significant activity. The wallet holds a variety of tokens.",
+  "summary": "This wallet has been inactive recently, with 50 total transactions and 30 of them being token-related. The wallet holds a significant amount of ETH and various tokens. There are no notable transactions in the recent activity.",
   "alerts": []
 }
