@@ -1,23 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-26T14:00:00.000Z",
+  "generatedAt": "2026-07-26T14:52:51.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with no significant transactions."
+      "text": "Recent activity suggests a low-risk wallet with minimal transactions."
     }
   ],
   "topTokens": [
-    "TTT",
-    "AIP",
-    "Claude",
-    "BOP",
-    "DOW"
+    "EVOLUTION",
+    "WETH"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with a total of 50 transactions and 275530.3997 ETH in balance.",
-  "alerts": [
-    "Suspicious frequent transfers with 0 ETH"
-  ]
+  "summary": "This wallet has a low activity score, indicating minimal transactions. The wallet holds a mix of tokens, including EVOLUTION and WETH. Recent transactions suggest a low-risk wallet.",
+  "alerts": []
 }
