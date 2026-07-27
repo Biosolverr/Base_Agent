@@ -1,18 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-26T14:52:51.000Z",
+  "generatedAt": "2026-07-27T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-risk wallet with minimal transactions."
+      "text": "This wallet has been inactive recently, with a series of zero-value transactions."
     }
   ],
   "topTokens": [
-    "EVOLUTION",
-    "WETH"
+    "SOSO",
+    "USDC",
+    "EVOLUTION"
   ],
-  "summary": "This wallet has a low activity score, indicating minimal transactions. The wallet holds a mix of tokens, including EVOLUTION and WETH. Recent transactions suggest a low-risk wallet.",
+  "summary": "This wallet holds a significant amount of ETH and has been involved in 30 token transactions. However, recent activity suggests inactivity, with a series of zero-value transactions.",
   "alerts": []
 }
