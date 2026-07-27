@@ -1,19 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-27T14:00:00.000Z",
+  "generatedAt": "2026-07-27T14:24:45.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of zero-value transactions."
+      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
     }
   ],
   "topTokens": [
+    "OpenAI",
     "SOSO",
-    "USDC",
-    "EVOLUTION"
+    "USDC"
   ],
-  "summary": "This wallet holds a significant amount of ETH and has been involved in 30 token transactions. However, recent activity suggests inactivity, with a series of zero-value transactions.",
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving ETH. The recent transactions are transfers of 0 ETH, indicating no significant activity.",
   "alerts": []
 }
