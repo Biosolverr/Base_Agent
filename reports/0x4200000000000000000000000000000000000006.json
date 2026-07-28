@@ -1,18 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-28T14:11:00.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2026-07-28T14:00:00.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are all transfers of 0 ETH."
+      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
     }
   ],
   "topTokens": [
     "OpenAI",
-    "USDC"
+    "Eric",
+    "SOSO",
+    "USDC",
+    "EVOLUTION",
+    "Vow",
+    "TTT",
+    "AIP",
+    "Claude",
+    "BOP"
   ],
-  "summary": "This wallet has a low activity score and has only transferred 0 ETH in recent transactions.",
+  "summary": "This wallet has a low activity score and has been transferring 0 ETH in recent transactions. It holds a variety of tokens, including OpenAI, Eric, and USDC. The wallet's behavior suggests it may be a bot.",
   "alerts": []
 }
