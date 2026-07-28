@@ -1,28 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-27T14:08:03.000Z",
-  "score": 0,
-  "type": "bot",
+  "generatedAt": "2026-07-28T00:00:00.000Z",
+  "score": 20,
+  "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a bot or automated system is active."
+      "text": "Recent activity suggests this wallet is holding assets, but no significant transactions have occurred."
     }
   ],
   "topTokens": [
-    "Eric",
-    "OpenAI",
-    "SOSO",
     "USDC",
-    "EVOLUTION",
-    "Vow",
-    "TTT",
-    "AIP",
-    "Claude",
-    "BOP"
+    "Eric"
   ],
-  "summary": "This wallet has a low activity score and has recently been involved in a series of 0 ETH transfers. The wallet has a high ETH balance and has received 50 transactions, with 30 of those being token transactions.",
-  "alerts": [
-    "Suspicious low-value transfers"
-  ]
+  "summary": "This wallet has a low activity score and has primarily been holding assets. Recent transactions were small and likely for maintenance purposes. The wallet has a diverse portfolio with multiple tokens.",
+  "alerts": []
 }
