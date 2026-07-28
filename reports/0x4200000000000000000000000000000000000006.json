@@ -1,18 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-28T00:00:00.000Z",
+  "generatedAt": "2026-07-28T14:11:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests this wallet is holding assets, but no significant transactions have occurred."
+      "text": "Recent transactions are all transfers of 0 ETH."
     }
   ],
   "topTokens": [
-    "USDC",
-    "Eric"
+    "OpenAI",
+    "USDC"
   ],
-  "summary": "This wallet has a low activity score and has primarily been holding assets. Recent transactions were small and likely for maintenance purposes. The wallet has a diverse portfolio with multiple tokens.",
+  "summary": "This wallet has a low activity score and has only transferred 0 ETH in recent transactions.",
   "alerts": []
 }
