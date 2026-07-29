@@ -1,18 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-28T14:03:00.000Z",
+  "generatedAt": "2026-07-29T14:23:33.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "The wallet has been inactive for a while, with recent transactions being small transfers."
+      "text": "This wallet has been inactive recently with no significant transactions."
     }
   ],
   "topTokens": [
     "USDC"
   ],
-  "summary": "This wallet has a low activity score and has been holding a large amount of ETH. Recent transactions have been small transfers.",
+  "summary": "This wallet has a low activity score and has been holding a large amount of ETH. It has recently made a series of small transactions, likely for testing or maintenance purposes. The wallet's primary token is USDC.",
   "alerts": [
     "Suspicious frequent transfers with 0 ETH value"
   ]
