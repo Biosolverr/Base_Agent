@@ -1,18 +1,17 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-29T14:00:00.000Z",
+  "generatedAt": "2026-07-29T14:52:25.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low level of engagement with the wallet."
+      "text": "Recent activity indicates a low level of engagement with the wallet."
     }
   ],
   "topTokens": [
-    "STARRISM",
-    "OpenAI"
+    "USDC"
   ],
-  "summary": "This wallet has a low activity score and has primarily been used for receiving tokens. Recent transactions suggest a lack of engagement with the wallet.",
+  "summary": "This wallet has a low activity score and has primarily been used for receiving tokens. Recent transactions indicate a lack of significant activity.",
   "alerts": []
 }
