@@ -1,19 +1,17 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-07-30T14:06:07.000Z",
+  "generatedAt": "2026-07-31T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions show a series of small transfers, but no significant activity."
+      "text": "Recent transactions are small and frequent, indicating possible wallet maintenance."
     }
   ],
   "topTokens": [
-    "OpenAI",
-    "WETH",
     "USDC"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 30 transactions with various tokens. Recent transactions show a series of small transfers.",
+  "summary": "This wallet has a low activity score and has been receiving small transactions, likely for wallet maintenance. The wallet holds USDC and has a history of sending and receiving tokens. There is no suspicious activity detected.",
   "alerts": []
 }
