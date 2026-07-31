@@ -1,13 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-01-01T00:00:00.000Z",
-  "score": 0,
+  "generatedAt": "2026-07-31T14:00:00.000Z",
+  "score": 20,
   "type": "holder",
-  "signals": [],
-  "topTokens": [
-    "WETH",
-    "USDC"
+  "signals": [
+    {
+      "type": "neutral",
+      "text": "No significant activity detected in the past 24 hours."
+    }
   ],
-  "summary": "This wallet has been inactive for an extended period, with no significant transactions.",
+  "topTokens": [
+    "OpenAI",
+    "WETH"
+  ],
+  "summary": "This wallet has a low activity score and has been holding a significant amount of ETH. It has received 50 transactions, but all recent transactions were transfers of 0 ETH.",
   "alerts": []
 }
