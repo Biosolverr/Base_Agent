@@ -1,15 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-02T14:01:19.000Z",
-  "score": 20,
+  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "score": 0,
   "type": "holder",
-  "signals": [
-    {
-      "type": "neutral",
-      "text": "The wallet has a low activity score and no significant transactions."
-    }
-  ],
+  "signals": [],
   "topTokens": [
+    "SKHY",
+    "Lone",
     "ASTEROID",
     "Outlier",
     "OpenAI",
@@ -17,10 +14,10 @@
     "Cole",
     "Anthropic",
     "PIPEDOG",
-    "STARRISM",
-    "Claude",
-    "Eric"
+    "STARRISM"
   ],
-  "summary": "This wallet has a low ETH balance and has been involved in 50 transactions, mostly receiving tokens. The recent transactions are transfers of 0 ETH.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been receiving 0 ETH in recent transactions.",
+  "alerts": [
+    "Suspicious low-value transactions"
+  ]
 }
