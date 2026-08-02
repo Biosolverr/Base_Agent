@@ -1,19 +1,17 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-01T14:49:59.000Z",
-  "score": 0,
+  "generatedAt": "2023-12-31T00:00:00.000Z",
+  "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "The wallet has been inactive recently, with no significant transactions."
+      "text": "The wallet has been inactive for an extended period."
     }
   ],
   "topTokens": [
-    "WETH",
-    "Outlier",
-    "OpenAI"
+    "WETH"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with no significant transactions.",
+  "summary": "This wallet has a low activity score and has been holding WETH. It has been inactive for an extended period, with recent transactions being transfers of 0 ETH.",
   "alerts": []
 }
