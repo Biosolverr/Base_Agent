@@ -1,7 +1,7 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
   "generatedAt": "2024-01-01T00:00:00.000Z",
-  "score": 0,
+  "score": 20,
   "type": "holder",
   "signals": [],
   "topTokens": [
@@ -16,8 +16,6 @@
     "PIPEDOG",
     "STARRISM"
   ],
-  "summary": "This wallet has a low activity score and has been receiving 0 ETH in recent transactions.",
-  "alerts": [
-    "Suspicious low-value transactions"
-  ]
+  "summary": "This wallet has been active with 50 transactions, mostly receiving tokens. Recent activity includes multiple transfers of 0 ETH.",
+  "alerts": []
 }
