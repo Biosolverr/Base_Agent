@@ -6,12 +6,12 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently with only transfer transactions."
+      "text": "This wallet has a low activity score and no significant transactions recently."
     }
   ],
   "topTokens": [
     "WETH"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently. It has a balance of 281536.5842 ETH and has made 50 transactions, all of which were transfers. The wallet holds WETH and other tokens.",
+  "summary": "This wallet has a low activity score and has been receiving 0 ETH in recent transactions.",
   "alerts": []
 }
