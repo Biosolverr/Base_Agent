@@ -6,16 +6,21 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has a low activity score and no recent significant transactions."
+      "text": "This wallet has a low activity score and has not sent any transactions."
     }
   ],
   "topTokens": [
+    "OpenAI",
     "SKHY",
     "Lone",
     "ASTEROID",
     "Outlier",
-    "OpenAI"
+    "WETH",
+    "Cole",
+    "Anthropic",
+    "PIPEDOG",
+    "STARRISM"
   ],
-  "summary": "This wallet has a low ETH balance and has been relatively inactive with 50 total transactions, mostly receiving ETH.",
+  "summary": "This wallet has a low activity score and has been receiving transactions. It has a balance of 282315.5617 ETH and has interacted with 10 different tokens.",
   "alerts": []
 }
