@@ -1,18 +1,19 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-01-01T00:00:00.000Z",
-  "score": 5,
+  "generatedAt": "2026-08-04T14:00:00.000Z",
+  "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has a low activity score and is primarily holding assets."
+      "text": "The wallet has shown minimal activity in the past few hours."
     }
   ],
   "topTokens": [
     "OpenAI",
-    "WETH"
+    "Claude",
+    "DEXHorizon"
   ],
-  "summary": "This wallet has a low activity score and is primarily holding assets. It has a large ETH balance and has received 50 transactions. The recent transactions are transfers of small amounts of ETH.",
+  "summary": "This wallet has a low activity score and has primarily been receiving tokens. There have been no significant transactions in the past few hours.",
   "alerts": []
 }
