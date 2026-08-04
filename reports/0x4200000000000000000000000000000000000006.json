@@ -1,19 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-04T14:00:00.000Z",
+  "generatedAt": "2023-12-31T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "The wallet has shown minimal activity in the past few hours."
+      "text": "This wallet has been inactive for an extended period."
     }
   ],
   "topTokens": [
     "OpenAI",
     "Claude",
-    "DEXHorizon"
+    "DEXHorizon",
+    "SKHY",
+    "Lone",
+    "ASTEROID",
+    "Outlier",
+    "WETH",
+    "Cole",
+    "Anthropic"
   ],
-  "summary": "This wallet has a low activity score and has primarily been receiving tokens. There have been no significant transactions in the past few hours.",
+  "summary": "This wallet has a low activity score and has been inactive for an extended period. It has a balance of 278236.7846 ETH and has received 50 transactions. The wallet has been involved in 30 token transactions.",
   "alerts": []
 }
