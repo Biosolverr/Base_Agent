@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
   "generatedAt": "2023-12-31T00:00:00.000Z",
-  "score": 20,
+  "score": 0,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for an extended period."
+      "text": "No recent activity detected."
     }
   ],
   "topTokens": [
@@ -21,6 +21,6 @@
     "Cole",
     "Anthropic"
   ],
-  "summary": "This wallet has a low activity score and has been inactive for an extended period. It has a balance of 278236.7846 ETH and has received 50 transactions. The wallet has been involved in 30 token transactions.",
+  "summary": "This wallet has been inactive for an extended period, with no significant transactions recorded. The wallet holds a large amount of ETH and various tokens.",
   "alerts": []
 }
