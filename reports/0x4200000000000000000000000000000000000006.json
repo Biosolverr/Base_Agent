@@ -1,21 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2023-12-31T00:00:00.000Z",
+  "generatedAt": "2026-08-06T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Low activity and no significant transactions detected."
+      "text": "This wallet has been inactive recently, with a series of small transactions."
     }
   ],
   "topTokens": [
     "OpenAI",
     "AI",
-    "Claude"
+    "Claude",
+    "DEXHorizon",
+    "SKHY",
+    "Lone",
+    "ASTEROID",
+    "Outlier",
+    "WETH",
+    "Cole"
   ],
-  "summary": "This wallet has been inactive with only a few recent transfers of 0 ETH. It holds a variety of tokens, including OpenAI, AI, and Claude. The wallet has a low activity score.",
-  "alerts": [
-    "Suspicious frequent transfers of 0 ETH"
-  ]
+  "summary": "This wallet has a low activity score and has been inactive recently, with a series of small transactions.",
+  "alerts": []
 }
