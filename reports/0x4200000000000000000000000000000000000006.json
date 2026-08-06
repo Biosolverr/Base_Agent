@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-06T14:30:00.000Z",
-  "score": 20,
+  "generatedAt": "2026-08-06T14:12:01.000Z",
+  "score": 0,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive recently, with a series of small transactions."
+      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
     }
   ],
   "topTokens": [
@@ -21,6 +21,6 @@
     "WETH",
     "Cole"
   ],
-  "summary": "This wallet has a low activity score and has been inactive recently, with a series of small transactions.",
+  "summary": "This wallet has a low activity score and has been holding 10 different tokens, with recent transfers of 0 ETH.",
   "alerts": []
 }
