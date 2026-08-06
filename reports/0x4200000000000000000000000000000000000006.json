@@ -1,17 +1,28 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-06T14:00:00.000Z",
-  "score": 20,
+  "generatedAt": "2026-08-06T14:47:23.000Z",
+  "score": 0,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a low-activity holder account."
+      "text": "Recent transactions are transfers with 0 ETH value, indicating potential inactivity."
     }
   ],
   "topTokens": [
+    "DREAM",
+    "Claude",
+    "OpenAI",
+    "AI",
+    "DEXHorizon",
+    "SKHY",
+    "Lone",
+    "ASTEROID",
+    "Outlier",
     "WETH"
   ],
-  "summary": "This wallet has a low activity score and has been involved in 50 transactions, mostly receiving ETH. The wallet has a significant ETH balance and has interacted with multiple tokens.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been involved in 50 transactions, primarily transfers with 0 ETH value.",
+  "alerts": [
+    "Suspicious inactivity with frequent transfers of 0 ETH value."
+  ]
 }
