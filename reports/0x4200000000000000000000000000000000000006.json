@@ -1,18 +1,23 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
   "generatedAt": "2024-01-01T00:00:00.000Z",
-  "score": 20,
+  "score": 0,
   "type": "holder",
-  "signals": [
-    {
-      "type": "neutral",
-      "text": "This wallet has been inactive for an extended period."
-    }
-  ],
+  "signals": [],
   "topTokens": [
     "DREAM",
+    "Claude",
+    "OpenAI",
+    "AI",
+    "DEXHorizon",
+    "SKHY",
+    "Lone",
+    "ASTEROID",
+    "Outlier",
     "WETH"
   ],
-  "summary": "This wallet has a low activity score and holds a mix of tokens, including DREAM and WETH. The wallet has been inactive for an extended period, with recent transactions being small transfers. The wallet's ETH balance is 263306.9590 ETH.",
-  "alerts": []
+  "summary": "This wallet has a low activity score and has been holding tokens for a while. It has recently made a series of small transactions. The wallet's balance is relatively high.",
+  "alerts": [
+    "Suspicious frequent transfers of 0 ETH"
+  ]
 }
