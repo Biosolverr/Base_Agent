@@ -1,23 +1,26 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-01-01T00:00:00.000Z",
-  "score": 0,
+  "generatedAt": "2023-12-31T00:00:00.000Z",
+  "score": 20,
   "type": "holder",
-  "signals": [],
+  "signals": [
+    {
+      "type": "neutral",
+      "text": "This wallet has a moderate activity level with a focus on holding tokens."
+    }
+  ],
   "topTokens": [
+    "OpenAI",
+    "SAAS",
+    "www.appswebstore.com/earn-solana/",
     "DREAM",
     "Claude",
-    "OpenAI",
     "AI",
     "DEXHorizon",
     "SKHY",
     "Lone",
-    "ASTEROID",
-    "Outlier",
-    "WETH"
+    "ASTEROID"
   ],
-  "summary": "This wallet has a low activity score and has been holding tokens for a while. It has recently made a series of small transactions. The wallet's balance is relatively high.",
-  "alerts": [
-    "Suspicious frequent transfers of 0 ETH"
-  ]
+  "summary": "This wallet has been active for a moderate amount of time, with a focus on holding a diverse set of tokens. The wallet has a low ETH balance and has not sent any transactions. Recent activity has been focused on transferring small amounts of ETH.",
+  "alerts": []
 }
