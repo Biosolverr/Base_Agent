@@ -1,25 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-08T14:20:01.000Z",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating minimal activity."
+      "text": "This wallet has been active with a low transaction volume."
     }
   ],
   "topTokens": [
     "GBLK",
-    "AC0R",
-    "OpenAI",
-    "SAAS",
-    "DREAM",
-    "Claude",
-    "AI",
-    "DEXHorizon",
-    "SKHY"
+    "AC0R"
   ],
-  "summary": "This wallet holds a significant amount of ETH and has been involved in 30 token transactions. Recent activity consists of multiple transfers of 0 ETH.",
+  "summary": "This wallet has a moderate activity score and has been involved in 50 transactions, with a total ETH volume of 14.00 ETH. It holds a variety of tokens, including GBLK and AC0R.",
   "alerts": []
 }
