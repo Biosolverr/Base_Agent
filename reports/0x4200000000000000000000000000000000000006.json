@@ -1,24 +1,23 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "generatedAt": "2024-02-14T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH."
+      "text": "Recent transactions are low-value transfers."
     }
   ],
   "topTokens": [
+    "Aurora",
     "PLAYER",
     "GBLK",
     "AC0R",
     "OpenAI",
     "SAAS",
-    "DREAM",
-    "Claude",
-    "AI"
+    "DREAM"
   ],
-  "summary": "This wallet has a balance of 260262.6783 ETH and has received 50 transactions, mostly transfers of 0 ETH. It holds 8 different tokens.",
+  "summary": "This wallet has a moderate activity score and holds a diverse portfolio of tokens. The recent transactions are low-value transfers.",
   "alerts": []
 }
