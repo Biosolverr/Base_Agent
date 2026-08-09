@@ -1,15 +1,24 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2023-12-31T00:00:00.000Z",
-  "score": 0,
-  "type": "new_wallet",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "score": 20,
+  "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers with 0 ETH value."
+      "text": "Recent transactions are transfers of 0 ETH."
     }
   ],
-  "topTokens": [],
-  "summary": "This wallet has a low activity score and has only made transfers with 0 ETH value. It has a total of 50 transactions, with 30 of them being related to tokens. The wallet holds a variety of tokens, including GBLK, AC0R, and OpenAI.",
+  "topTokens": [
+    "PLAYER",
+    "GBLK",
+    "AC0R",
+    "OpenAI",
+    "SAAS",
+    "DREAM",
+    "Claude",
+    "AI"
+  ],
+  "summary": "This wallet has a balance of 260262.6783 ETH and has received 50 transactions, mostly transfers of 0 ETH. It holds 8 different tokens.",
   "alerts": []
 }
