@@ -1,15 +1,16 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-02-14T14:30:00.000Z",
-  "score": 20,
-  "type": "holder",
+  "generatedAt": "2023-12-31T00:00:00.000Z",
+  "score": 0,
+  "type": "bot",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are low-value transfers."
+      "text": "Recent transactions are all transfers of 0 ETH, indicating potential bot activity."
     }
   ],
   "topTokens": [
+    "HELLO",
     "Aurora",
     "PLAYER",
     "GBLK",
@@ -18,6 +19,8 @@
     "SAAS",
     "DREAM"
   ],
-  "summary": "This wallet has a moderate activity score and holds a diverse portfolio of tokens. The recent transactions are low-value transfers.",
-  "alerts": []
+  "summary": "This wallet has been active with 50 transactions, primarily receiving tokens. Recent transactions are all transfers of 0 ETH, indicating potential bot activity.",
+  "alerts": [
+    "Suspicious activity: recent transactions are all transfers of 0 ETH."
+  ]
 }
