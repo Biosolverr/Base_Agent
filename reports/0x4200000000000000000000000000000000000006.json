@@ -1,12 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2023-12-31T00:00:00.000Z",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
   "score": 0,
-  "type": "bot",
+  "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are all transfers of 0 ETH, indicating potential bot activity."
+      "text": "This wallet has been inactive for an extended period."
     }
   ],
   "topTokens": [
@@ -17,10 +17,9 @@
     "AC0R",
     "OpenAI",
     "SAAS",
+    "www.appswebstore.com/earn-solana/",
     "DREAM"
   ],
-  "summary": "This wallet has been active with 50 transactions, primarily receiving tokens. Recent transactions are all transfers of 0 ETH, indicating potential bot activity.",
-  "alerts": [
-    "Suspicious activity: recent transactions are all transfers of 0 ETH."
-  ]
+  "summary": "This wallet has been inactive for an extended period and has a low activity score. It has a large ETH balance and has received 50 transactions, mostly from token transfers.",
+  "alerts": []
 }
