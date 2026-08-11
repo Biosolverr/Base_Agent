@@ -1,24 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-11T14:00:00.000Z",
+  "generatedAt": "2024-02-20T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant activity detected."
+      "text": "This wallet has been inactive for an extended period."
     }
   ],
   "topTokens": [
     "TRUMP",
-    "HELLO",
-    "Aurora",
-    "PLAYER",
-    "GBLK",
-    "AC0R",
-    "OpenAI",
-    "SAAS"
+    "HELLO"
   ],
-  "summary": "This wallet holds a significant amount of ETH and has made 30 token transactions. Recent activity includes frequent transfers of 0 ETH.",
+  "summary": "This wallet has a low activity score and has been holding a small number of tokens. It has a large ETH balance and has received 50 transactions. The recent transactions are all transfers of 0 ETH.",
   "alerts": []
 }
