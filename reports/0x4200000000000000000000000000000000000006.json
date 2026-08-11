@@ -1,19 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-11T14:49:33.000Z",
+  "generatedAt": "2026-08-11T14:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are small and frequent, indicating possible wallet maintenance."
+      "text": "This wallet has been inactive for a long period."
     }
   ],
   "topTokens": [
     "HELLO",
-    "Aurora",
-    "PLAYER"
+    "Aurora"
   ],
-  "summary": "This wallet has a low activity score and has been holding a large amount of ETH for a while. Recent transactions are small and frequent, indicating possible wallet maintenance. The wallet has interacted with various tokens.",
+  "summary": "This wallet has a low activity score and has been holding ETH and a few other tokens for a while. It has recently made a series of small transfers. The wallet's balance is relatively high, indicating it may be a holder.",
   "alerts": []
 }
