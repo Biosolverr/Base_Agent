@@ -6,13 +6,19 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "This wallet has been inactive for a long period."
+      "text": "No significant activity detected."
     }
   ],
   "topTokens": [
+    "TRUMP",
     "HELLO",
-    "Aurora"
+    "Aurora",
+    "PLAYER",
+    "GBLK",
+    "AC0R",
+    "OpenAI",
+    "SAAS"
   ],
-  "summary": "This wallet has a low activity score and has been holding ETH and a few other tokens for a while. It has recently made a series of small transfers. The wallet's balance is relatively high, indicating it may be a holder.",
+  "summary": "This wallet holds a significant amount of ETH and has made 30 token transactions. Recent activity includes frequent transfers of 0 ETH.",
   "alerts": []
 }
