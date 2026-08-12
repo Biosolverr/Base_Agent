@@ -1,27 +1,25 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-12T14:00:00.000Z",
+  "generatedAt": "2023-12-31T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent activity suggests a holder wallet with low transaction volume."
+      "text": "Recent activity suggests a low-risk wallet."
     }
   ],
   "topTokens": [
+    "USEWR",
+    "ELONSPACEX",
     "Chinese Base Presale Token",
     "TRUMP",
     "HELLO",
     "Aurora",
     "PLAYER",
     "GBLK",
-    "AC0R",
-    "OpenAI",
-    "SAAS"
+    "AC0R"
   ],
-  "summary": "This wallet has been active with 50 transactions, mostly receiving tokens. The recent transactions show a pattern of frequent transfers with 0 ETH value.",
-  "alerts": [
-    "Suspicious frequent transfers with 0 ETH value"
-  ]
+  "summary": "This wallet has a low activity score and has been holding a diverse set of tokens. Recent transactions suggest a possible attempt to withdraw funds, but the amounts are minimal. The wallet's overall behavior is neutral.",
+  "alerts": []
 }
