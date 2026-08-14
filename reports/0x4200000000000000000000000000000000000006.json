@@ -1,25 +1,25 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2026-08-13T14:44:31.000Z",
+  "generatedAt": "2026-08-14T14:30:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant activity detected in the past few hours."
+      "text": "This wallet has been inactive recently with no significant transactions."
     }
   ],
   "topTokens": [
+    "REDT",
+    "NEW NORMAL",
     "USEWR",
     "ELONSPACEX",
     "Chinese Base Presale Token",
     "TRUMP",
     "HELLO",
     "Aurora",
-    "PLAYER",
-    "GBLK",
-    "AC0R"
+    "PLAYER"
   ],
-  "summary": "This wallet has been inactive for a while, with only recent transfers of 0 ETH. It holds a diverse portfolio of 9 tokens. The wallet has a low activity score of 20.",
+  "summary": "This wallet has been holding a large amount of ETH and various tokens for an extended period. It has been inactive recently with no significant transactions. The wallet has a low activity score.",
   "alerts": []
 }
