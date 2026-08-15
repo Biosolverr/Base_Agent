@@ -1,18 +1,18 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
-  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "generatedAt": "2023-12-31T00:00:00.000Z",
   "score": 20,
   "type": "holder",
   "signals": [
     {
       "type": "neutral",
-      "text": "Recent transactions are transfers of 0 ETH, indicating no significant activity."
+      "text": "No significant activity detected."
     }
   ],
   "topTokens": [
     "SROS",
     "REDT"
   ],
-  "summary": "This wallet has a low activity score and has been holding tokens, with recent transfers of 0 ETH indicating no significant activity.",
+  "summary": "This wallet has a low activity score and has been holding onto a variety of tokens. It has a large ETH balance and has received 50 transactions. The recent transactions are all transfers of 0 ETH.",
   "alerts": []
 }
