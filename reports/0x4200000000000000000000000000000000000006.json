@@ -6,13 +6,21 @@
   "signals": [
     {
       "type": "neutral",
-      "text": "No significant activity detected."
+      "text": "This wallet has been inactive for an extended period."
     }
   ],
   "topTokens": [
     "SROS",
-    "REDT"
+    "REDT",
+    "NEW NORMAL",
+    "USEWR",
+    "ELONSPACEX",
+    "Chinese Base Presale Token",
+    "TRUMP",
+    "HELLO",
+    "Aurora",
+    "PLAYER"
   ],
-  "summary": "This wallet has a low activity score and has been holding onto a variety of tokens. It has a large ETH balance and has received 50 transactions. The recent transactions are all transfers of 0 ETH.",
+  "summary": "This wallet has been holding a diverse portfolio of tokens, with no significant activity in the past 24 hours.",
   "alerts": []
 }
