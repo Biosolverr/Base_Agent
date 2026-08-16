@@ -1,15 +1,12 @@
 {
   "wallet": "0x4200000000000000000000000000000000000006",
   "generatedAt": "2023-12-31T00:00:00.000Z",
-  "score": 20,
+  "score": 0,
   "type": "holder",
-  "signals": [
-    {
-      "type": "neutral",
-      "text": "No significant activity detected in the last 24 hours."
-    }
-  ],
+  "signals": [],
   "topTokens": [],
-  "summary": "This wallet has a low activity score and has not sent any transactions in the last 24 hours. It has received 50 transactions and has a total ETH balance of 268741.3004 ETH.",
-  "alerts": []
+  "summary": "This wallet has a balance of 268248.3434 ETH and has received 50 transactions, with 1 failed transaction. The wallet has been inactive recently, with a series of small transfers.",
+  "alerts": [
+    "Suspicious frequent transfers with small amounts"
+  ]
 }
