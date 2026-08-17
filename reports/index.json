@@ -1,11 +1,9 @@
 {
-  "updatedAt": "2026-08-17T06:29:47.450Z",
+  "updatedAt": "2026-08-17T12:19:10.335Z",
   "wallets": [
     {
       "address": "0x4200000000000000000000000000000000000006",
-      "generatedAt": "2023-12-31T00:00:00.000Z",
-      "score": 20,
-      "type": "holder"
+      "error": "AI API error 404: {\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
     }
   ]
 }
