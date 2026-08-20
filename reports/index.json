@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-20T12:22:16.539Z",
+  "updatedAt": "2026-08-20T18:20:42.318Z",
   "wallets": [
     {
       "address": "0x4200000000000000000000000000000000000006",
-      "error": "AI API error 404: {\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+      "error": "Unexpected end of JSON input"
     }
   ]
 }
