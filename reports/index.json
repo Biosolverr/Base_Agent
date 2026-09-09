@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09T01:55:49.539Z",
+  "updatedAt": "2026-09-09T10:17:07.731Z",
   "wallets": [
     {
       "address": "0x4200000000000000000000000000000000000006",
-      "error": "Unexpected end of JSON input"
+      "error": "Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON"
     }
   ]
 }
